@@ -1,0 +1,24 @@
+{
+  "tiers": {
+    "title": "පාරිභෝගික මට්ටම්",
+    "minPoints": "අවම ලකුණු {{points}}",
+    "benefits": "ප්‍රතිලාභ"
+  },
+  "rewards": {
+    "title": "ලබාගත හැකි ත්‍යාග",
+    "points": "ලකුණු",
+    "redeem": "ලබාගන්න",
+    "confirmRedeem": "ලබාගැනීම තහවුරු කරන්න",
+    "confirmMessage": "ඔබට {{name}} සඳහා ලකුණු {{points}} භාවිතා කිරීමට අවශ්‍යද?",
+    "confirm": "තහවුරු කරන්න"
+  },
+  "topCustomers": {
+    "title": "ඉහළම පාරිභෝගික සාමාජිකයින්"
+  },
+  "table": {
+    "customer": "පාරිභෝගික",
+    "points": "ලකුණු",
+    "tier": "මට්ටම",
+    "lastActivity": "අවසන් ක්‍රියාකාරකම"
+  }
+} 

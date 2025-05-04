@@ -1,0 +1,33 @@
+{
+  "searchPlaceholder": "Search refunds...",
+  "newRefund": "New Refund",
+  "table": {
+    "orderId": "Order ID",
+    "customerName": "Customer Name",
+    "amount": "Amount",
+    "date": "Date",
+    "status": "Status",
+    "reason": "Reason",
+    "actions": "Actions",
+    "viewDetails": "View Details"
+  },
+  "status": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "dialog": {
+    "title": "New Refund Request",
+    "orderId": "Order ID",
+    "customerName": "Customer Name",
+    "reason": "Reason",
+    "items": "Items",
+    "productId": "Product ID",
+    "productName": "Product Name",
+    "quantity": "Quantity",
+    "price": "Price",
+    "addItem": "Add Item",
+    "cancel": "Cancel",
+    "submit": "Submit"
+  }
+} 

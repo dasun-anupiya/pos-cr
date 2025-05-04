@@ -1,0 +1,99 @@
+.backup-restore-container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.page-title {
+  margin: 0;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.action-button {
+  white-space: nowrap;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-card {
+  margin-top: 24px;
+}
+
+.schedule-form-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.schedule-form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.history-card {
+  margin-top: 24px;
+}
+
+.backup-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.backup-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.schedule-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0;
+  min-width: 300px;
+}
+
+.time-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .time-input {
+    background: #1e1e1e;
+    color: #ffffff;
+    border-color: #333333;
+  }
+} 

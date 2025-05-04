@@ -1,0 +1,66 @@
+{
+  "title": "සැපයුම්කරුවන් සහ මිලදී ගැනීම්",
+  "supplierList": {
+    "title": "සැපයුම්කරුවන්ගේ ලැයිස්තුව",
+    "search": {
+      "placeholder": "සැපයුම්කරුවන් සොයන්න..."
+    },
+    "table": {
+      "id": "හැඳුනුම්පත",
+      "name": "නම",
+      "contact": "සම්බන්ධතා පුද්ගලයා",
+      "email": "විද්‍යුත් තැපෑල",
+      "phone": "දුරකථන",
+      "status": "තත්ත්වය",
+      "actions": "ක්‍රියාමාර්ග"
+    }
+  },
+  "purchaseOrders": {
+    "title": "මිලදී ගැනීමේ ඇණවුම්",
+    "create": "මිලදී ගැනීමේ ඇණවුමක් සාදන්න",
+    "search": "මිලදී ගැනීමේ ඇණවුම් සොයන්න...",
+    "table": {
+      "id": "ඇණවුම් අංකය",
+      "supplier": "සැපයුම්කරු",
+      "orderDate": "ඇණවුම් දිනය",
+      "expectedDelivery": "අපේක්ෂිත බෙදාහැරීම",
+      "totalAmount": "මුළු මුදල",
+      "status": "තත්ත්වය",
+      "actions": "ක්‍රියාමාර්ග"
+    },
+    "status": {
+      "pending": "අපේක්ෂිත",
+      "approved": "අනුමත කළ",
+      "received": "ලැබුණි",
+      "cancelled": "අවලංගු කළා"
+    }
+  },
+  "incomingStock": {
+    "title": "ලැබෙන තොග",
+    "search": "ලැබෙන තොග සොයන්න...",
+    "table": {
+      "id": "යොමුව",
+      "poNumber": "ඇණවුම් අංකය",
+      "supplier": "සැපයුම්කරු",
+      "expectedDate": "අපේක්ෂිත දිනය",
+      "items": "අයිතම",
+      "status": "තත්ත්වය",
+      "actions": "ක්‍රියාමාර්ග"
+    },
+    "status": {
+      "pending": "අපේක්ෂිත",
+      "received": "ලැබුණි",
+      "delayed": "ප්‍රමාද වී ඇත"
+    }
+  },
+  "status": {
+    "active": "ක්‍රියාත්මකයි",
+    "inactive": "අක්‍රියයි"
+  },
+  "actions": {
+    "addSupplier": "සැපයුම්කරුවෙකු එකතු කරන්න",
+    "editSupplier": "සැපයුම්කරු සංස්කරණය කරන්න",
+    "deleteSupplier": "සැපයුම්කරු මකන්න",
+    "viewDetails": "විස්තර බලන්න"
+  }
+} 

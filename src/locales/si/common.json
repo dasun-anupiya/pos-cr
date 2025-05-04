@@ -1,0 +1,129 @@
+{
+  "app": {
+    "title": "MKS POS පද්ධතිය"
+  },
+  "pos": {
+    "productNumber": "භාණ්ඩ අංකය",
+    "quantity": "ප්‍රමාණය",
+    "price": "මිල",
+    "amount": "මුදල",
+    "discount": "වට්ටම",
+    "total": "මුළු එකතුව",
+    "subtotal": "උප එකතුව",
+    "tax": "බදු",
+    "grandTotal": "සමස්ත එකතුව",
+    "payment": "ගෙවීම",
+    "cash": "මුදල්",
+    "card": "කාඩ්පත",
+    "change": "ඉතිරි මුදල",
+    "orderNumber": "ඇණවුම් අංකය",
+    "date": "දිනය",
+    "time": "වේලාව",
+    "customer": "පාරිභෝගික",
+    "cashier": "කැෂියර්",
+    "print": "මුද්‍රණය",
+    "cancel": "අවලංගු",
+    "save": "සුරකින්න",
+    "add": "එකතු කරන්න",
+    "remove": "ඉවත් කරන්න",
+    "search": "සොයන්න",
+    "searchPlaceholder": "භාණ්ඩ සොයන්න..."
+  },
+  "menu": {
+    "sales": {
+      "title": "විකුණුම්",
+      "newSale": "නව විකුණුම් (POS අවසානය)",
+      "salesHistory": "විකුණුම් ඉතිහාසය",
+      "refundsReturns": "ආපසු ගෙවීම් සහ ආපසු භාරදීම්"
+    },
+    "orders": {
+      "title": "ඇණවුම්",
+      "customerOrders": "පාරිභෝගික ඇණවුම්",
+      "pendingOrders": "අවලංගු ඇණවුම්",
+      "completedOrders": "සම්පූර්ණ කළ ඇණවුම්",
+      "canceledOrders": "අවලංගු කළ ඇණවුම්"
+    },
+    "products": {
+      "title": "නිෂ්පාදන සහ තොග",
+      "productList": "නිෂ්පාදන ලැයිස්තුව",
+      "addNewProduct": "නව නිෂ්පාදනයක් එකතු කරන්න",
+      "stockManagement": "තොග කළමනාකරණය",
+      "lowStockAlerts": "අඩු තොග ඇඟවීම්"
+    },
+    "customers": {
+      "title": "පාරිභෝගිකයින්",
+      "customerList": "පාරිභෝගික ලැයිස්තුව",
+      "loyaltyProgram": "පාරිභෝගික ලොයල්ටි වැඩසටහන",
+      "customerFeedback": "පාරිභෝගික ප්‍රතිචාර"
+    },
+    "employees": {
+      "title": "සේවකයින් සහ කාර්යභාර",
+      "employeeList": "සේවක ලැයිස්තුව",
+      "shiftManagement": "වාර කළමනාකරණය",
+      "roleBasedAccess": "කාර්යභාර පදනම් ප්‍රවේශය"
+    },
+    "reports": {
+      "title": "වාර්තා සහ විශ්ලේෂණ",
+      "salesReports": "විකුණුම් වාර්තා",
+      "inventoryReports": "තොග වාර්තා",
+      "profitLoss": "ලාභ අලාභ",
+      "taxReports": "බදු වාර්තා"
+    },
+    "suppliers": {
+      "title": "සැපයුම්කරුවන් සහ මිලදී ගැනීම්",
+      "supplierList": "සැපයුම්කරු ලැයිස්තුව",
+      "purchaseOrders": "මිලදී ගැනීමේ ඇණවුම්",
+      "incomingStock": "ලැබෙන තොග"
+    },
+    "security": {
+      "title": "ආරක්ෂාව සහ ලොග්",
+      "userActivityLogs": "පරිශීලක ක්‍රියාකාරකම් ලොග්",
+      "backupRestore": "උපස්ථ සහ ප්‍රතිස්ථාපන"
+    },
+    "support": {
+      "title": "සහාය සහ උදව්"
+    }
+  },
+  "days": {
+    "mon": "සඳුදා",
+    "tue": "අඟහරුවාදා",
+    "wed": "බදාදා",
+    "thu": "බ්‍රහස්පතින්දා",
+    "fri": "සිකුරාදා",
+    "sat": "සෙනසුරාදා",
+    "sun": "ඉරිදා"
+  },
+  "months": {
+    "jan": "ජනවාරි",
+    "feb": "පෙබරවාරි",
+    "mar": "මාර්තු",
+    "apr": "අප්‍රේල්",
+    "may": "මැයි",
+    "jun": "ජූනි",
+    "jul": "ජූලි",
+    "aug": "අගෝස්තු",
+    "sep": "සැප්තැම්බර්",
+    "oct": "ඔක්තෝබර්",
+    "nov": "නොවැම්බර්",
+    "dec": "දෙසැම්බර්"
+  },
+  "categories": {
+    "electronics": "ඉලෙක්ට්‍රොනික්ස්",
+    "clothing": "ඇඳුම්",
+    "foodBeverage": "ආහාර සහ පාන",
+    "homeGarden": "නිවස සහ උද්‍යානය",
+    "sportsOutdoors": "ක්‍රීඩා සහ එළිමහන්"
+  },
+  "products": {
+    "laptop": "ලැප්ටොප්",
+    "tshirt": "ටී ෂර්ට්",
+    "coffeeBeans": "කෝපි බීජ",
+    "gardenTools": "උද්‍යාන උපකරණ",
+    "tennisRacket": "ටෙනිස් පහන",
+    "productA": "නිෂ්පාදන A",
+    "productB": "නිෂ්පාදන B",
+    "productC": "නිෂ්පාදන C",
+    "productD": "නිෂ්පාදන D",
+    "productE": "නිෂ්පාදන E"
+  }
+} 

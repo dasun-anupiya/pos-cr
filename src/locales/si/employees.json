@@ -1,0 +1,47 @@
+{
+  "title": "සේවක ලැයිස්තුව",
+  "addEmployee": "සේවකයෙකු එකතු කරන්න",
+  "searchPlaceholder": "සේවකයින් සොයන්න...",
+  "actions": {
+    "manageShifts": "වාර කළමනාකරණය",
+    "manageRoles": "කාර්යභාර කළමනාකරණය",
+    "addEmployee": "සේවකයෙකු එකතු කරන්න",
+    "edit": "සංස්කරණය කරන්න",
+    "delete": "මකන්න"
+  },
+  "labels": {
+    "email": "විද්‍යුත් තැපෑල",
+    "phone": "දුරකථන",
+    "department": "දෙපාර්තමේන්තුව",
+    "joinDate": "සම්බන්ධ වූ දිනය"
+  },
+  "form": {
+    "name": "සම්පූර්ණ නම",
+    "email": "විද්‍යුත් තැපැල් ලිපිනය",
+    "phone": "දුරකථන අංකය",
+    "role": "කාර්යභාරය",
+    "department": "දෙපාර්තමේන්තුව",
+    "joinDate": "සම්බන්ධ වූ දිනය",
+    "status": "තත්ත්වය"
+  },
+  "roles": {
+    "manager": "කළමනාකරු",
+    "cashier": "මුදල් අයකරු",
+    "sales": "විකුණුම් නියෝජිත",
+    "inventory": "ගබඩා කළමනාකරු"
+  },
+  "departments": {
+    "sales": "විකුණුම්",
+    "operations": "මෙහෙයුම්",
+    "finance": "මූල්‍ය",
+    "hr": "මානව සම්පත්"
+  },
+  "status": {
+    "active": "ක්‍රියාකාරී",
+    "inactive": "අක්‍රිය"
+  },
+  "deleteConfirmation": {
+    "title": "සේවකයා මකන්න",
+    "message": "ඔබට {{name}} මැකීමට අවශ්‍ය බව විශ්වාසද?"
+  }
+} 

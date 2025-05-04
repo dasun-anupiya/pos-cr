@@ -1,0 +1,93 @@
+{
+  "title": "Reports",
+  "timeRange": "Time Range",
+  "daily": "Daily",
+  "monthly": "Monthly",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "weekly": "Weekly",
+  "quarterly": "Quarterly",
+  "yearly": "Yearly",
+  "sales": {
+    "title": "Sales Reports",
+    "summary": "Sales Summary",
+    "period": "Period",
+    "amount": "Amount",
+    "topProducts": "Top Selling Products",
+    "productName": "Product Name",
+    "unitsSold": "Units Sold",
+    "revenue": "Revenue",
+    "daily": "Daily Sales",
+    "monthly": "Monthly Sales",
+    "yearly": "Yearly Sales",
+    "filters": {
+      "dateRange": "Date Range",
+      "category": "Category",
+      "product": "Product",
+      "customer": "Customer"
+    }
+  },
+  "tax": {
+    "title": "Tax Reports",
+    "salesTax": "Sales Tax",
+    "vat": "VAT",
+    "serviceTax": "Service Tax",
+    "filters": {
+      "dateRange": "Date Range",
+      "taxType": "Tax Type"
+    },
+    "summary": {
+      "totalTaxCollected": "Total Tax Collected",
+      "taxByType": "Tax by Type",
+      "taxableAmount": "Taxable Amount"
+    }
+  },
+  "profitLoss": {
+    "title": "Profit & Loss",
+    "revenue": "Revenue",
+    "expenses": "Expenses",
+    "grossProfit": "Gross Profit",
+    "netProfit": "Net Profit",
+    "salesRevenue": "Sales Revenue",
+    "costOfGoods": "Cost of Goods",
+    "operatingExpenses": "Operating Expenses",
+    "filters": {
+      "dateRange": "Date Range",
+      "category": "Category"
+    },
+    "summary": {
+      "totalRevenue": "Total Revenue",
+      "totalExpenses": "Total Expenses",
+      "netProfitMargin": "Net Profit Margin"
+    }
+  },
+  "inventory": {
+    "title": "Inventory Reports",
+    "category": "Category",
+    "product": "Product",
+    "quantity": "Quantity",
+    "value": "Value",
+    "lowStock": "Low Stock",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "reorderPoint": "Reorder Point",
+    "lastUpdated": "Last Updated",
+    "filters": {
+      "category": "Filter by Category",
+      "status": "Filter by Status",
+      "search": "Search Products"
+    },
+    "status": {
+      "all": "All",
+      "inStock": "In Stock",
+      "lowStock": "Low Stock",
+      "outOfStock": "Out of Stock"
+    },
+    "summary": {
+      "totalProducts": "Total Products",
+      "totalValue": "Total Value",
+      "lowStockItems": "Low Stock Items",
+      "outOfStockItems": "Out of Stock Items"
+    }
+  }
+} 

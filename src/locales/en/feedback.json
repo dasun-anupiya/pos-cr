@@ -1,0 +1,30 @@
+{
+  "searchPlaceholder": "Search feedback...",
+  "filters": {
+    "rating": "Rating",
+    "category": "Category",
+    "status": "Status",
+    "all": "All",
+    "stars": "Stars"
+  },
+  "categories": {
+    "service": "Service",
+    "product": "Product",
+    "delivery": "Delivery"
+  },
+  "status": {
+    "pending": "Pending",
+    "responded": "Responded",
+    "resolved": "Resolved"
+  },
+  "actions": {
+    "reply": "Reply"
+  },
+  "response": "Response",
+  "dialog": {
+    "title": "Reply to Feedback",
+    "customerFeedback": "Customer Feedback",
+    "response": "Your Response",
+    "submit": "Submit Response"
+  }
+} 

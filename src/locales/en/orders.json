@@ -1,0 +1,48 @@
+{
+  "common": {
+    "searchPlaceholder": "Search orders...",
+    "orderId": "Order ID",
+    "customerName": "Customer Name",
+    "orderDate": "Order Date",
+    "totalAmount": "Total Amount",
+    "status": "Status",
+    "actions": "Actions",
+    "viewDetails": "View Details"
+  },
+  "customerOrders": {
+    "newOrder": "New Order"
+  },
+  "pendingOrders": {
+    "markAsProcessing": "Mark as Processing",
+    "markAsCompleted": "Mark as Completed"
+  },
+  "completedOrders": {
+    "completionDate": "Completion Date"
+  },
+  "canceledOrders": {
+    "cancellationDate": "Cancellation Date",
+    "cancellationReason": "Cancellation Reason"
+  },
+  "status": {
+    "pending": "Pending",
+    "processing": "Processing",
+    "completed": "Completed",
+    "canceled": "Canceled"
+  },
+  "details": {
+    "title": "Order Details",
+    "customerInfo": "Customer Information",
+    "customerName": "Customer Name",
+    "orderInfo": "Order Information",
+    "itemsList": "Items List",
+    "total": "Total Amount",
+    "close": "Close",
+    "print": "Print"
+  },
+  "table": {
+    "product": "Product",
+    "quantity": "Quantity",
+    "unitPrice": "Unit Price",
+    "total": "Total"
+  }
+} 

@@ -1,0 +1,16 @@
+{
+  "title": "Role Management",
+  "searchPlaceholder": "Search roles...",
+  "addRole": "Add Role",
+  "editRole": "Edit Role",
+  "permissions": "Permissions",
+  "deleteConfirmation": {
+    "title": "Delete Role",
+    "message": "Are you sure you want to delete {{name}}?"
+  },
+  "form": {
+    "name": "Role Name",
+    "description": "Description",
+    "permissions": "Permissions"
+  }
+} 

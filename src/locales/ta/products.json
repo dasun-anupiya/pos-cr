@@ -1,0 +1,42 @@
+{
+  "searchPlaceholder": "பொருட்களைத் தேடு...",
+  "table": {
+    "id": "பொருள் ஐடி",
+    "name": "பொருள் பெயர்",
+    "category": "வகை",
+    "price": "விலை",
+    "stock": "தற்போதைய இருப்பு",
+    "supplier": "விநியோகஸ்தர்",
+    "status": "நிலை",
+    "actions": "செயல்கள்"
+  },
+  "status": {
+    "active": "செயலில் உள்ளது",
+    "inactive": "செயலற்றது"
+  },
+  "actions": {
+    "addNew": "புதிய பொருளைச் சேர்",
+    "edit": "பொருளைத் திருத்து",
+    "delete": "பொருளை நீக்கு"
+  },
+  "form": {
+    "title": "புதிய பொருளைச் சேர்",
+    "name": "பொருள் பெயர்",
+    "category": "வகை",
+    "price": "விலை",
+    "initialStock": "ஆரம்ப இருப்பு",
+    "reorderPoint": "மறு ஆர்டர் புள்ளி",
+    "supplier": "விநியோகஸ்தர்",
+    "description": "விளக்கம்"
+  },
+  "categories": {
+    "category1": "வகை 1",
+    "category2": "வகை 2",
+    "category3": "வகை 3"
+  },
+  "suppliers": {
+    "supplier1": "விநியோகஸ்தர் 1",
+    "supplier2": "விநியோகஸ்தர் 2",
+    "supplier3": "விநியோகஸ்தர் 3"
+  }
+} 

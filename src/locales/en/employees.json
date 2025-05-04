@@ -1,0 +1,47 @@
+{
+  "title": "Employee List",
+  "addEmployee": "Add Employee",
+  "searchPlaceholder": "Search employees...",
+  "actions": {
+    "manageShifts": "Manage Shifts",
+    "manageRoles": "Manage Roles",
+    "addEmployee": "Add Employee",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "labels": {
+    "email": "Email",
+    "phone": "Phone",
+    "department": "Department",
+    "joinDate": "Join Date"
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "role": "Role",
+    "department": "Department",
+    "joinDate": "Join Date",
+    "status": "Status"
+  },
+  "roles": {
+    "manager": "Manager",
+    "cashier": "Cashier",
+    "sales": "Sales Representative",
+    "inventory": "Inventory Manager"
+  },
+  "departments": {
+    "sales": "Sales",
+    "operations": "Operations",
+    "finance": "Finance",
+    "hr": "Human Resources"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "deleteConfirmation": {
+    "title": "Delete Employee",
+    "message": "Are you sure you want to delete {{name}}?"
+  }
+} 

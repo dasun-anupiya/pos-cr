@@ -1,0 +1,494 @@
+{
+  "app": {
+    "title": "POS System",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "menu": {
+    "sales": {
+      "title": "Sales",
+      "newSale": "New Sale (POS Terminal)",
+      "salesHistory": "Sales History",
+      "refundsReturns": "Refunds & Returns"
+    },
+    "orders": {
+      "title": "Orders",
+      "customerOrders": "Customer Orders",
+      "pendingOrders": "Pending Orders",
+      "completedOrders": "Completed Orders",
+      "canceledOrders": "Canceled Orders"
+    },
+    "products": {
+      "title": "Products & Inventory",
+      "productList": "Product List",
+      "addNewProduct": "Add New Product",
+      "stockManagement": "Stock Management",
+      "lowStockAlerts": "Low Stock Alerts"
+    },
+    "customers": {
+      "title": "Customers",
+      "customerList": "Customer List",
+      "loyaltyProgram": "Loyalty Program",
+      "customerFeedback": "Customer Feedback"
+    },
+    "employees": {
+      "title": "Employees & Roles",
+      "employeeList": "Employee List",
+      "shiftManagement": "Shift Management",
+      "roleBasedAccess": "Role-Based Access"
+    },
+    "reports": {
+      "title": "Reports & Analytics",
+      "salesReports": "Sales Reports",
+      "inventoryReports": "Inventory Reports",
+      "profitLoss": "Profit & Loss",
+      "taxReports": "Tax Reports",
+      "timeRange": "Time Range",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "custom": "Custom",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "salesOverview": "Sales Overview",
+      "keyMetrics": "Key Metrics",
+      "totalSales": "Total Sales",
+      "totalOrders": "Total Orders",
+      "avgOrderValue": "Average Order Value",
+      "conversionRate": "Conversion Rate",
+      "topProducts": "Top Products",
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "stockLevelsByCategory": "Stock Levels by Category",
+      "category": "Category",
+      "totalItems": "Total Items",
+      "lowStock": "Low Stock",
+      "outOfStock": "Out of Stock",
+      "inventorySummary": "Inventory Summary",
+      "totalProducts": "Total Products",
+      "totalValue": "Total Value",
+      "lowStockItems": "Low Stock Items",
+      "outOfStockItems": "Out of Stock Items",
+      "recentStockMovements": "Recent Stock Movements",
+      "product": "Product",
+      "type": "Type",
+      "quantity": "Quantity",
+      "date": "Date",
+      "in": "In",
+      "out": "Out",
+      "chartPlaceholder": "Chart will be displayed here"
+    },
+    "suppliers": {
+      "title": "Suppliers & Purchases",
+      "supplierList": "Supplier List",
+      "purchaseOrders": "Purchase Orders",
+      "incomingStock": "Incoming Stock"
+    },
+    "security": {
+      "title": "Security & Logs",
+      "userActivityLogs": "User Activity Logs",
+      "backupRestore": "Backup & Restore"
+    },
+    "support": {
+      "title": "Support & Help"
+    }
+  },
+  "pos": {
+    "scanBarcode": "Scan Barcode",
+    "productNumber": "Product Number",
+    "name": "Name",
+    "price": "Price",
+    "quantity": "Quantity",
+    "discount": "Discount",
+    "amount": "Amount",
+    "actions": "Actions",
+    "totalAmount": "Total Amount",
+    "totalDiscount": "Total Discount",
+    "printBill": "Print Bill",
+    "cancel": "Cancel",
+    "print": "Print"
+  },
+  "bill": {
+    "contact": "Contact",
+    "email": "Email",
+    "date": "Date",
+    "item": "Item",
+    "qty": "Qty",
+    "amountPaid": "Amount Paid",
+    "balance": "Balance",
+    "poweredBy": "Powered by"
+  },
+  "salesHistory": {
+    "title": "Sales History",
+    "filters": {
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "paymentMethod": "Payment Method",
+      "status": "Status",
+      "searchCustomer": "Search Customer",
+      "clearFilters": "Clear Filters",
+      "all": "All"
+    },
+    "table": {
+      "saleId": "Sale ID",
+      "date": "Date",
+      "customer": "Customer",
+      "items": "Items",
+      "total": "Total",
+      "paymentMethod": "Payment Method",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "completed": "Completed",
+      "refunded": "Refunded",
+      "canceled": "Canceled"
+    },
+    "paymentMethods": {
+      "cash": "Cash",
+      "card": "Card",
+      "mobilePay": "Mobile Payment"
+    },
+    "details": {
+      "title": "Sale Details",
+      "totalAmount": "Total Amount"
+    }
+  },
+  "refunds": {
+    "title": "Refunds & Returns",
+    "searchPlaceholder": "Search refunds...",
+    "newRefund": "New Refund",
+    "table": {
+      "orderId": "Order ID",
+      "customerName": "Customer Name",
+      "amount": "Amount",
+      "date": "Date",
+      "status": "Status",
+      "reason": "Reason",
+      "actions": "Actions",
+      "viewDetails": "View Details"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "dialog": {
+      "title": "New Refund",
+      "orderId": "Order ID",
+      "customerName": "Customer Name",
+      "reason": "Reason for Refund",
+      "items": "Items to Refund",
+      "productId": "Product ID",
+      "productName": "Product Name",
+      "quantity": "Quantity",
+      "price": "Price",
+      "addItem": "Add Item",
+      "cancel": "Cancel",
+      "submit": "Submit Refund"
+    }
+  },
+  "orders": {
+    "common": {
+      "orderId": "Order ID",
+      "customerName": "Customer Name",
+      "orderDate": "Order Date",
+      "totalAmount": "Total Amount",
+      "status": "Status",
+      "items": "Items",
+      "actions": "Actions",
+      "viewDetails": "View Details",
+      "searchPlaceholder": "Search orders...",
+      "noOrders": "No orders found"
+    },
+    "status": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "completed": "Completed",
+      "canceled": "Canceled",
+      "all": "All"
+    },
+    "filters": {
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "status": "Status",
+      "searchCustomer": "Search Customer",
+      "clearFilters": "Clear Filters"
+    },
+    "details": {
+      "title": "Order Details",
+      "customerInfo": "Customer Information",
+      "orderInfo": "Order Information",
+      "itemsList": "Order Items",
+      "contact": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "paymentMethod": "Payment Method",
+      "notes": "Notes",
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "total": "Total",
+      "close": "Close",
+      "print": "Print Order"
+    },
+    "customerOrders": {
+      "title": "Customer Orders",
+      "newOrder": "New Order"
+    },
+    "pendingOrders": {
+      "title": "Pending Orders",
+      "markAsProcessing": "Mark as Processing",
+      "markAsCompleted": "Mark as Completed"
+    },
+    "completedOrders": {
+      "title": "Completed Orders",
+      "completionDate": "Completion Date"
+    },
+    "canceledOrders": {
+      "title": "Canceled Orders",
+      "cancellationDate": "Cancellation Date",
+      "cancellationReason": "Cancellation Reason"
+    },
+    "table": {
+      "product": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total"
+    }
+  },
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "actions": "Actions"
+  },
+  "products": {
+    "form": {
+      "title": "Add New Product",
+      "name": "Product Name",
+      "category": "Category",
+      "price": "Price",
+      "initialStock": "Initial Stock",
+      "reorderPoint": "Reorder Point",
+      "supplier": "Supplier",
+      "description": "Description"
+    },
+    "categories": {
+      "category1": "Electronics",
+      "category2": "Clothing",
+      "category3": "Food & Beverages"
+    },
+    "suppliers": {
+      "supplier1": "Supplier A",
+      "supplier2": "Supplier B",
+      "supplier3": "Supplier C"
+    },
+    "table": {
+      "id": "ID",
+      "name": "Name",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "supplier": "Supplier",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "addNew": "Add New Product"
+    },
+    "searchPlaceholder": "Search products..."
+  },
+  "inventory": {
+    "table": {
+      "id": "ID",
+      "name": "Name",
+      "currentStock": "Current Stock",
+      "reorderPoint": "Reorder Point",
+      "supplier": "Supplier",
+      "lastUpdated": "Last Updated",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "in-stock": "In Stock",
+      "low-stock": "Low Stock",
+      "out-of-stock": "Out of Stock"
+    },
+    "actions": {
+      "adjustStock": "Adjust Stock",
+      "reorder": "Place Reorder"
+    },
+    "adjustStock": {
+      "title": "Adjust Stock",
+      "increase": "Increase",
+      "decrease": "Decrease",
+      "quantity": "Quantity",
+      "reason": "Reason"
+    },
+    "searchPlaceholder": "Search inventory...",
+    "lowStockAlerts": {
+      "title": "Low Stock Alerts"
+    }
+  },
+  "customers": {
+    "title": "Customer Management",
+    "searchPlaceholder": "Search customers...",
+    "form": {
+      "title": "Add New Customer",
+      "name": "Customer Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "address": "Address"
+    },
+    "table": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "loyaltyPoints": "Loyalty Points",
+      "registrationDate": "Registration Date",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "addNew": "Add New Customer",
+      "edit": "Edit Customer",
+      "delete": "Delete Customer"
+    }
+  },
+  "loyalty": {
+    "tiers": {
+      "title": "Loyalty Tiers",
+      "minPoints": "Minimum {{points}} points required",
+      "benefits": "Benefits"
+    },
+    "rewards": {
+      "title": "Available Rewards",
+      "points": "points",
+      "redeem": "Redeem",
+      "confirmRedeem": "Confirm Redemption",
+      "confirmMessage": "Are you sure you want to redeem {{name}} for {{points}} points?",
+      "confirm": "Confirm"
+    },
+    "topCustomers": {
+      "title": "Top Customers"
+    },
+    "table": {
+      "customer": "Customer",
+      "points": "Points",
+      "tier": "Tier",
+      "lastActivity": "Last Activity"
+    }
+  },
+  "feedback": {
+    "searchPlaceholder": "Search feedback...",
+    "filters": {
+      "rating": "Rating",
+      "category": "Category",
+      "status": "Status",
+      "all": "All",
+      "stars": "stars"
+    },
+    "categories": {
+      "service": "Service",
+      "product": "Product",
+      "delivery": "Delivery"
+    },
+    "status": {
+      "pending": "Pending",
+      "responded": "Responded",
+      "resolved": "Resolved"
+    },
+    "actions": {
+      "reply": "Reply"
+    },
+    "response": "Response",
+    "dialog": {
+      "title": "Reply to Feedback",
+      "customerFeedback": "Customer Feedback",
+      "response": "Your Response",
+      "submit": "Submit Response"
+    }
+  },
+  "employees": {
+    "title": "Employee Management",
+    "addEmployee": "Add Employee",
+    "editEmployee": "Edit Employee",
+    "searchPlaceholder": "Search employees...",
+    "deleteConfirmation": {
+      "title": "Delete Employee",
+      "message": "Are you sure you want to delete {{name}}?"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "role": "Role",
+      "department": "Department",
+      "joinDate": "Join Date",
+      "status": "Status"
+    },
+    "roles": {
+      "manager": "Manager",
+      "cashier": "Cashier",
+      "sales": "Sales Representative",
+      "inventory": "Inventory Manager"
+    },
+    "departments": {
+      "sales": "Sales",
+      "operations": "Operations",
+      "finance": "Finance",
+      "hr": "Human Resources"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "shifts": {
+    "title": "Shift Management",
+    "addShift": "Add New Shift",
+    "editShift": "Edit Shift",
+    "deleteConfirmation": {
+      "title": "Delete Shift",
+      "message": "Are you sure you want to delete this shift?"
+    },
+    "employee": "Employee",
+    "date": "Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "status": {
+      "scheduled": "Scheduled",
+      "in-progress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "roles": {
+    "title": "Role Management",
+    "addRole": "Add Role",
+    "editRole": "Edit Role",
+    "searchPlaceholder": "Search roles...",
+    "deleteConfirmation": {
+      "title": "Delete Role",
+      "message": "Are you sure you want to delete {{name}}?"
+    },
+    "form": {
+      "name": "Role Name",
+      "description": "Description",
+      "permissions": "Permissions"
+    },
+    "permissions": "Permissions"
+  }
+} 

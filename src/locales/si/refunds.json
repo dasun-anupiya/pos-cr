@@ -1,0 +1,33 @@
+{
+  "searchPlaceholder": "ආපසු ගෙවීම් සොයන්න...",
+  "newRefund": "නව ආපසු ගෙවීම",
+  "table": {
+    "orderId": "ඇණවුම් අංකය",
+    "customerName": "පාරිභෝගික නම",
+    "amount": "මුදල",
+    "date": "දිනය",
+    "status": "තත්ත්වය",
+    "reason": "හේතුව",
+    "actions": "ක්‍රියාමාර්ග",
+    "viewDetails": "විස්තර බලන්න"
+  },
+  "status": {
+    "pending": "අපේක්ෂිත",
+    "approved": "අනුමත කර ඇත",
+    "rejected": "ප්‍රතික්ෂේප කර ඇත"
+  },
+  "dialog": {
+    "title": "නව ආපසු ගෙවීම් ඉල්ලීම",
+    "orderId": "ඇණවුම් අංකය",
+    "customerName": "පාරිභෝගික නම",
+    "reason": "හේතුව",
+    "items": "අයිතම",
+    "productId": "නිෂ්පාදන අංකය",
+    "productName": "නිෂ්පාදන නම",
+    "quantity": "ප්‍රමාණය",
+    "price": "මිල",
+    "addItem": "අයිතමය එකතු කරන්න",
+    "cancel": "අවලංගු කරන්න",
+    "submit": "ඉදිරිපත් කරන්න"
+  }
+} 

@@ -1,0 +1,24 @@
+{
+  "tiers": {
+    "title": "Loyalty Tiers",
+    "minPoints": "Minimum {{points}} points",
+    "benefits": "Benefits"
+  },
+  "rewards": {
+    "title": "Available Rewards",
+    "points": "Points",
+    "redeem": "Redeem",
+    "confirmRedeem": "Confirm Redemption",
+    "confirmMessage": "Are you sure you want to redeem {{name}} for {{points}} points?",
+    "confirm": "Confirm"
+  },
+  "topCustomers": {
+    "title": "Top Loyalty Members"
+  },
+  "table": {
+    "customer": "Customer",
+    "points": "Points",
+    "tier": "Tier",
+    "lastActivity": "Last Activity"
+  }
+} 

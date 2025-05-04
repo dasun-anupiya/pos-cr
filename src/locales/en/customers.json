@@ -1,0 +1,29 @@
+{
+  "searchPlaceholder": "Search customers...",
+  "table": {
+    "id": "Customer ID",
+    "name": "Customer Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "loyaltyPoints": "Loyalty Points",
+    "registrationDate": "Registration Date",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "actions": {
+    "addNew": "Add New Customer",
+    "edit": "Edit Customer",
+    "delete": "Delete Customer"
+  },
+  "confirmDelete": {
+    "title": "Confirm Delete",
+    "message": "Are you sure you want to delete customer {{name}}?",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  }
+} 

@@ -1,0 +1,68 @@
+{
+  "title": "Security & Logs",
+  "userActivityLogs": {
+    "title": "User Activity Logs",
+    "search": {
+      "placeholder": "Search logs..."
+    },
+    "table": {
+      "timestamp": "Timestamp",
+      "user": "User",
+      "action": "Action",
+      "details": "Details",
+      "ipAddress": "IP Address",
+      "status": "Status"
+    },
+    "actions": {
+      "export": "Export Logs",
+      "filter": "Filter Logs",
+      "clear": "Clear Logs"
+    },
+    "status": {
+      "success": "Success",
+      "warning": "Warning",
+      "error": "Error",
+      "info": "Info"
+    }
+  },
+  "backupRestore": {
+    "title": "Backup & Restore",
+    "backup": {
+      "title": "Backup",
+      "description": "Create a backup of your system data",
+      "create": "Create Backup",
+      "lastBackup": "Last Backup",
+      "schedule": "Schedule Backup"
+    },
+    "restore": {
+      "title": "Restore",
+      "description": "Restore your system from a previous backup",
+      "button": "Restore Backup",
+      "warning": "Warning: Restoring from a backup will overwrite current data"
+    },
+    "schedule": {
+      "title": "Backup Schedule",
+      "autoBackup": "Automatic Backup",
+      "frequency": "Frequency",
+      "time": "Backup Time",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "history": {
+      "title": "Backup History",
+      "id": "ID",
+      "timestamp": "Date & Time",
+      "size": "Size",
+      "createdBy": "Created By",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "failed": "Failed"
+    },
+    "delete": "Delete"
+  }
+} 

@@ -1,0 +1,48 @@
+{
+  "common": {
+    "searchPlaceholder": "ඇණවුම් සොයන්න...",
+    "orderId": "ඇණවුම් අංකය",
+    "customerName": "පාරිභෝගික නම",
+    "orderDate": "ඇණවුම් දිනය",
+    "totalAmount": "මුළු මුදල",
+    "status": "තත්ත්වය",
+    "actions": "ක්‍රියාමාර්ග",
+    "viewDetails": "විස්තර බලන්න"
+  },
+  "customerOrders": {
+    "newOrder": "නව ඇණවුමක්"
+  },
+  "pendingOrders": {
+    "markAsProcessing": "සැකසීමට සලකුණු කරන්න",
+    "markAsCompleted": "සම්පූර්ණ කළා ලෙස සලකුණු කරන්න"
+  },
+  "completedOrders": {
+    "completionDate": "සම්පූර්ණ කළ දිනය"
+  },
+  "canceledOrders": {
+    "cancellationDate": "අවලංගු කළ දිනය",
+    "cancellationReason": "අවලංගු කිරීමට හේතුව"
+  },
+  "status": {
+    "pending": "අපේක්ෂිත",
+    "processing": "සැකසෙමින් පවතී",
+    "completed": "සම්පූර්ණයි",
+    "canceled": "අවලංගු කර ඇත"
+  },
+  "details": {
+    "title": "ඇණවුම් විස්තර",
+    "customerInfo": "පාරිභෝගික තොරතුරු",
+    "customerName": "පාරිභෝගික නම",
+    "orderInfo": "ඇණවුම් තොරතුරු",
+    "itemsList": "අයිතම ලැයිස්තුව",
+    "total": "මුළු මුදල",
+    "close": "වසන්න",
+    "print": "මුද්‍රණය කරන්න"
+  },
+  "table": {
+    "product": "නිෂ්පාදනය",
+    "quantity": "ප්‍රමාණය",
+    "unitPrice": "ඒකක මිල",
+    "total": "මුළු එකතුව"
+  }
+} 

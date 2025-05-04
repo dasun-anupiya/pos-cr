@@ -1,0 +1,43 @@
+{
+  "title": "Support & Help Center",
+  "quickHelp": {
+    "title": "Quick Help Guide",
+    "description": "Get started quickly with our step-by-step guides for common tasks and features.",
+    "viewGuide": "View Quick Guide"
+  },
+  "contact": {
+    "title": "Contact Support",
+    "description": "Need help? Our support team is available 24/7 to assist you with any questions or issues.",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "documentation": {
+    "title": "Documentation",
+    "description": "Access comprehensive documentation covering all aspects of the POS system.",
+    "viewDocs": "View Documentation"
+  },
+  "tutorials": {
+    "title": "Video Tutorials",
+    "description": "Watch our video tutorials to learn how to use the system effectively.",
+    "watchVideos": "Watch Tutorials"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "pos": {
+      "question": "How do I process a refund?",
+      "answer": "To process a refund, go to the Sales History section, locate the transaction, click on the Refund button, and follow the prompts to complete the refund process."
+    },
+    "inventory": {
+      "question": "How do I update product stock levels?",
+      "answer": "Navigate to Products & Inventory > Stock Management, select the product you want to update, and enter the new stock quantity. You can also use the bulk update feature for multiple products."
+    },
+    "reports": {
+      "question": "How can I generate sales reports?",
+      "answer": "Go to Reports & Analytics > Sales Reports, select your desired date range and report type, then click Generate Report. You can export the report in various formats including PDF and Excel."
+    },
+    "customers": {
+      "question": "How do I manage customer loyalty points?",
+      "answer": "Access the Customers > Loyalty Program section, where you can view and manage customer points, set up rewards, and configure point earning rules."
+    }
+  }
+} 

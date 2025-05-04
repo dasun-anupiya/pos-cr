@@ -1,0 +1,47 @@
+{
+  "title": "ஊழியர் பட்டியல்",
+  "addEmployee": "ஊழியரைச் சேர்க்க",
+  "searchPlaceholder": "ஊழியர்களைத் தேடு...",
+  "actions": {
+    "manageShifts": "ஷிப்ட் மேலாண்மை",
+    "manageRoles": "பாத்திர மேலாண்மை",
+    "addEmployee": "ஊழியரைச் சேர்க்க",
+    "edit": "திருத்து",
+    "delete": "நீக்கு"
+  },
+  "labels": {
+    "email": "மின்னஞ்சல்",
+    "phone": "தொலைபேசி",
+    "department": "துறை",
+    "joinDate": "சேர்ந்த தேதி"
+  },
+  "form": {
+    "name": "முழு பெயர்",
+    "email": "மின்னஞ்சல் முகவரி",
+    "phone": "தொலைபேசி எண்",
+    "role": "பாத்திரம்",
+    "department": "துறை",
+    "joinDate": "சேர்ந்த தேதி",
+    "status": "நிலை"
+  },
+  "roles": {
+    "manager": "மேலாளர்",
+    "cashier": "காசாளர்",
+    "sales": "விற்பனை பிரதிநிதி",
+    "inventory": "சரக்கு மேலாளர்"
+  },
+  "departments": {
+    "sales": "விற்பனை",
+    "operations": "செயல்பாடுகள்",
+    "finance": "நிதி",
+    "hr": "மனித வளம்"
+  },
+  "status": {
+    "active": "செயலில்",
+    "inactive": "செயலற்றது"
+  },
+  "deleteConfirmation": {
+    "title": "ஊழியரை நீக்கு",
+    "message": "{{name}} ஐ நீக்க விரும்புகிறீர்களா?"
+  }
+} 

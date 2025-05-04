@@ -1,0 +1,35 @@
+{
+  "filters": {
+    "startDate": "ආරම්භක දිනය",
+    "endDate": "අවසන් දිනය",
+    "paymentMethod": "ගෙවීම් ක්‍රමය",
+    "status": "තත්ත්වය",
+    "searchCustomer": "පාරිභෝගිකයා සොයන්න",
+    "clearFilters": "පෙරහන් හිස් කරන්න",
+    "all": "සියල්ල"
+  },
+  "table": {
+    "saleId": "විකුණුම් හැඳුනුම්පත",
+    "date": "දිනය",
+    "customer": "පාරිභෝගික",
+    "items": "අයිතම",
+    "total": "මුළු එකතුව",
+    "paymentMethod": "ගෙවීම් ක්‍රමය",
+    "status": "තත්ත්වය",
+    "actions": "ක්‍රියාමාර්ග"
+  },
+  "status": {
+    "completed": "සම්පූර්ණයි",
+    "refunded": "ආපසු ගෙවා ඇත",
+    "canceled": "අවලංගු කර ඇත"
+  },
+  "paymentMethods": {
+    "cash": "මුදල්",
+    "card": "කාඩ්පත",
+    "mobilePay": "ජංගම ගෙවීම්"
+  },
+  "details": {
+    "title": "විකුණුම් විස්තර",
+    "totalAmount": "මුළු මුදල"
+  }
+} 

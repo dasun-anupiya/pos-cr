@@ -1,0 +1,106 @@
+{
+  "title": "அறிக்கைகள்",
+  "timeRange": "கால வரம்பு",
+  "daily": "தினசரி",
+  "weekly": "வாரந்தோறும்",
+  "monthly": "மாதாந்திர",
+  "startDate": "தொடக்க தேதி",
+  "endDate": "முடிவு தேதி",
+  "sales": {
+    "title": "விற்பனை அறிக்கைகள்",
+    "daily": "தினசரி விற்பனை",
+    "weekly": "வாராந்திர விற்பனை",
+    "monthly": "மாதாந்திர விற்பனை",
+    "yearly": "வருடாந்திர விற்பனை",
+    "filters": {
+      "dateRange": "தேதி வரம்பு",
+      "category": "வகை",
+      "product": "பொருள்",
+      "customer": "வாடிக்கையாளர்"
+    },
+    "summary": {
+      "totalSales": "மொத்த விற்பனை",
+      "averageSale": "சராசரி விற்பனை",
+      "topProducts": "சிறந்த பொருட்கள்",
+      "topCategories": "சிறந்த வகைகள்"
+    },
+    "summary": "விற்பனை சுருக்கம்",
+    "period": "காலம்",
+    "amount": "தொகை",
+    "topProducts": "அதிக விற்பனையான பொருட்கள்",
+    "productName": "பொருளின் பெயர்",
+    "unitsSold": "விற்கப்பட்ட அலகுகள்",
+    "revenue": "வருவாய்"
+  },
+  "inventory": {
+    "title": "சரக்கு அறிக்கைகள்",
+    "category": "வகை",
+    "product": "பொருள்",
+    "quantity": "அளவு",
+    "value": "மதிப்பு",
+    "lowStock": "குறைந்த சரக்கு",
+    "outOfStock": "சரக்கு இல்லை",
+    "inStock": "சரக்கு உள்ளது",
+    "reorderPoint": "மறு ஆர்டர் புள்ளி",
+    "lastUpdated": "கடைசியாக புதுப்பிக்கப்பட்டது",
+    "filters": {
+      "category": "வகை மூலம் வடிகட்டு",
+      "status": "நிலை மூலம் வடிகட்டு",
+      "search": "பொருட்களைத் தேடு"
+    },
+    "status": {
+      "all": "அனைத்தும்",
+      "inStock": "சரக்கு உள்ளது",
+      "lowStock": "குறைந்த சரக்கு",
+      "outOfStock": "சரக்கு இல்லை"
+    },
+    "summary": {
+      "totalProducts": "மொத்த பொருட்கள்",
+      "totalValue": "மொத்த மதிப்பு",
+      "lowStockItems": "குறைந்த சரக்கு பொருட்கள்",
+      "outOfStockItems": "சரக்கு இல்லாத பொருட்கள்"
+    }
+  },
+  "profitLoss": {
+    "title": "லாபம் & நட்டம்",
+    "revenue": "வருவாய்",
+    "expenses": "செலவுகள்",
+    "grossProfit": "மொத்த லாபம்",
+    "netProfit": "நிகர லாபம்",
+    "salesRevenue": "விற்பனை வருவாய்",
+    "costOfGoods": "பொருட்களின் விலை",
+    "operatingExpenses": "செயல்பாட்டு செலவுகள்",
+    "filters": {
+      "dateRange": "தேதி வரம்பு",
+      "category": "வகை"
+    },
+    "summary": {
+      "totalRevenue": "மொத்த வருவாய்",
+      "totalExpenses": "மொத்த செலவுகள்",
+      "netProfitMargin": "நிகர லாப விளிம்பு"
+    }
+  },
+  "tax": {
+    "title": "வரி அறிக்கைகள்",
+    "details": "வரி விவரங்கள்",
+    "category": "வகை",
+    "taxableAmount": "வரி விதிக்கக்கூடிய தொகை",
+    "rate": "விகிதம்",
+    "amount": "தொகை",
+    "total": "மொத்தம்",
+    "salesTax": "விற்பனை வரி",
+    "vat": "VAT",
+    "serviceTax": "சேவை வரி",
+    "filters": {
+      "dateRange": "தேதி வரம்பு",
+      "taxType": "வரி வகை"
+    },
+    "summary": {
+      "totalTaxCollected": "மொத்த வசூலிக்கப்பட்ட வரி",
+      "taxByType": "வகை வாரியான வரி",
+      "taxableAmount": "வரி விதிக்கக்கூடிய தொகை"
+    }
+  },
+  "quarterly": "காலாண்டு",
+  "yearly": "வருடாந்திர"
+} 

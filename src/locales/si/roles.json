@@ -1,0 +1,16 @@
+{
+  "title": "කාර්යභාර කළමනාකරණය",
+  "searchPlaceholder": "කාර්යභාර සොයන්න...",
+  "addRole": "කාර්යභාරය එකතු කරන්න",
+  "editRole": "කාර්යභාරය සංස්කරණය කරන්න",
+  "permissions": "අවසර",
+  "deleteConfirmation": {
+    "title": "කාර්යභාරය මකන්න",
+    "message": "{{name}} මැකීමට අවශ්‍ය බව ඔබට විශ්වාසද?"
+  },
+  "form": {
+    "name": "කාර්යභාර නාමය",
+    "description": "විස්තරය",
+    "permissions": "අවසර"
+  }
+} 

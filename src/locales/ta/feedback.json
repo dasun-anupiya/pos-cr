@@ -1,0 +1,30 @@
+{
+  "searchPlaceholder": "கருத்துகளைத் தேடு...",
+  "filters": {
+    "rating": "மதிப்பீடு",
+    "category": "வகை",
+    "status": "நிலை",
+    "all": "அனைத்தும்",
+    "stars": "நட்சத்திரங்கள்"
+  },
+  "categories": {
+    "service": "சேவை",
+    "product": "பொருள்",
+    "delivery": "விநியோகம்"
+  },
+  "status": {
+    "pending": "நிலுவையில்",
+    "responded": "பதிலளிக்கப்பட்டது",
+    "resolved": "தீர்க்கப்பட்டது"
+  },
+  "actions": {
+    "reply": "பதிலளி"
+  },
+  "response": "பதில்",
+  "dialog": {
+    "title": "கருத்துக்கு பதிலளி",
+    "customerFeedback": "வாடிக்கையாளர் கருத்து",
+    "response": "உங்கள் பதில்",
+    "submit": "பதிலை சமர்ப்பி"
+  }
+} 

@@ -1,0 +1,33 @@
+{
+  "searchPlaceholder": "Search inventory...",
+  "table": {
+    "id": "Product ID",
+    "name": "Product Name",
+    "currentStock": "Current Stock",
+    "reorderPoint": "Reorder Point",
+    "supplier": "Supplier",
+    "lastUpdated": "Last Updated",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "in-stock": "In Stock",
+    "low-stock": "Low Stock",
+    "out-of-stock": "Out of Stock"
+  },
+  "actions": {
+    "adjustStock": "Adjust Stock",
+    "reorder": "Place Order"
+  },
+  "adjustStock": {
+    "title": "Adjust Stock",
+    "increase": "Increase",
+    "decrease": "Decrease",
+    "quantity": "Quantity",
+    "reason": "Reason"
+  },
+  "lowStockAlerts": {
+    "title": "Low Stock Alerts",
+    "description": "Products that need attention"
+  }
+} 

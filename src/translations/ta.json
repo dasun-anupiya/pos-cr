@@ -1,0 +1,453 @@
+{
+  "app": {
+    "title": "MKS POS அமைப்பு",
+    "logout": "வெளியேறு",
+    "language": "மொழி"
+  },
+  "menu": {
+    "sales": {
+      "title": "விற்பனை",
+      "newSale": "புதிய விற்பனை (POS முனையம்)",
+      "salesHistory": "விற்பனை வரலாறு",
+      "refundsReturns": "பணத்திருப்பி & திருப்பங்கள்"
+    },
+    "orders": {
+      "title": "ஆர்டர்கள்",
+      "customerOrders": "வாடிக்கையாளர் ஆர்டர்கள்",
+      "pendingOrders": "நிலுவையில் உள்ள ஆர்டர்கள்",
+      "completedOrders": "முடிக்கப்பட்ட ஆர்டர்கள்",
+      "canceledOrders": "ரத்து செய்யப்பட்ட ஆர்டர்கள்"
+    },
+    "products": {
+      "title": "பொருட்கள் & சரக்கு",
+      "productList": "பொருட்கள் பட்டியல்",
+      "addNewProduct": "புதிய பொருள் சேர்க்க",
+      "stockManagement": "சரக்கு மேலாண்மை",
+      "lowStockAlerts": "குறைந்த சரக்கு எச்சரிக்கைகள்"
+    },
+    "customers": {
+      "title": "வாடிக்கையாளர் மேலாண்மை",
+      "searchPlaceholder": "வாடிக்கையாளர்களைத் தேடுங்கள்...",
+      "form": {
+        "title": "புதிய வாடிக்கையாளரைச் சேர்க்கவும்",
+        "name": "வாடிக்கையாளர் பெயர்",
+        "email": "மின்னஞ்சல்",
+        "phone": "தொலைபேசி எண்",
+        "address": "முகவரி"
+      },
+      "table": {
+        "id": "அடையாள எண்",
+        "name": "பெயர்",
+        "email": "மின்னஞ்சல்",
+        "phone": "தொலைபேசி",
+        "loyaltyPoints": "விசுவாச புள்ளிகள்",
+        "registrationDate": "பதிவு தேதி",
+        "status": "நிலை",
+        "actions": "செயல்கள்"
+      },
+      "status": {
+        "active": "செயலில்",
+        "inactive": "செயலற்றது"
+      },
+      "actions": {
+        "addNew": "புதிய வாடிக்கையாளரைச் சேர்க்கவும்",
+        "edit": "வாடிக்கையாளரைத் திருத்து",
+        "delete": "வாடிக்கையாளரை நீக்கு"
+      }
+    },
+    "employees": {
+      "title": "ஊழியர்கள் & பணிகள்",
+      "employeeList": "ஊழியர் பட்டியல்",
+      "shiftManagement": "ஷிப்ட் மேலாண்மை",
+      "roleBasedAccess": "பணி அடிப்படையிலான அணுகல்"
+    },
+    "reports": {
+      "title": "அறிக்கைகள் & பகுப்பாய்வு",
+      "salesReports": "விற்பனை அறிக்கைகள்",
+      "inventoryReports": "சரக்கு அறிக்கைகள்",
+      "profitLoss": "லாபம் & நட்டம்",
+      "taxReports": "வரி அறிக்கைகள்"
+    },
+    "suppliers": {
+      "title": "விநியோகஸ்தர்கள் & கொள்முதல்",
+      "supplierList": "விநியோகஸ்தர் பட்டியல்",
+      "purchaseOrders": "கொள்முதல் ஆர்டர்கள்",
+      "incomingStock": "வரும் சரக்கு"
+    },
+    "security": {
+      "title": "பாதுகாப்பு & பதிவுகள்",
+      "userActivityLogs": "பயனர் செயல்பாட்டு பதிவுகள்",
+      "backupRestore": "காப்புப்பிரதி & மீட்டமைப்பு"
+    },
+    "support": {
+      "title": "ஆதரவு & உதவி"
+    }
+  },
+  "pos": {
+    "scanBarcode": "பார்கோடை ஸ்கேன் செய்க",
+    "productNumber": "பொருள் எண்",
+    "name": "பெயர்",
+    "price": "விலை",
+    "quantity": "அளவு",
+    "discount": "தள்ளுபடி",
+    "amount": "தொகை",
+    "actions": "செயல்கள்",
+    "totalAmount": "மொத்த தொகை",
+    "totalDiscount": "மொத்த தள்ளுபடி",
+    "printBill": "பில் அச்சிடுக",
+    "cancel": "ரத்து செய்",
+    "print": "அச்சிடு"
+  },
+  "bill": {
+    "contact": "தொடர்பு",
+    "email": "மின்னஞ்சல்",
+    "date": "தேதி",
+    "item": "பொருள்",
+    "qty": "அளவு",
+    "amountPaid": "செலுத்திய தொகை",
+    "balance": "மீதி",
+    "poweredBy": "மூலம் இயக்கப்படுகிறது"
+  },
+  "salesHistory": {
+    "title": "விற்பனை வரலாறு",
+    "filters": {
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி",
+      "paymentMethod": "கட்டண முறை",
+      "status": "நிலை",
+      "searchCustomer": "வாடிக்கையாளரை தேடு",
+      "clearFilters": "வடிகட்டிகளை அழி",
+      "all": "அனைத்தும்"
+    },
+    "table": {
+      "saleId": "விற்பனை ஐடி",
+      "date": "தேதி",
+      "customer": "வாடிக்கையாளர்",
+      "items": "பொருட்கள்",
+      "total": "மொத்தம்",
+      "paymentMethod": "கட்டண முறை",
+      "status": "நிலை",
+      "actions": "செயல்கள்"
+    },
+    "status": {
+      "completed": "முடிந்தது",
+      "refunded": "திரும்ப அளிக்கப்பட்டது",
+      "canceled": "ரத்து செய்யப்பட்டது"
+    },
+    "paymentMethods": {
+      "cash": "பணம்",
+      "card": "கார்டு",
+      "mobilePay": "மொபைல் பேமெண்ட்"
+    },
+    "details": {
+      "title": "விற்பனை விவரங்கள்",
+      "totalAmount": "மொத்த தொகை"
+    }
+  },
+  "refunds": {
+    "title": "பணத்திருப்பி & திருப்பங்கள்",
+    "searchPlaceholder": "பணத்திருப்பிகளை தேடு...",
+    "newRefund": "புதிய பணத்திருப்பி",
+    "table": {
+      "orderId": "ஆர்டர் ஐடி",
+      "customerName": "வாடிக்கையாளர் பெயர்",
+      "amount": "தொகை",
+      "date": "தேதி",
+      "status": "நிலை",
+      "reason": "காரணம்",
+      "actions": "செயல்கள்",
+      "viewDetails": "விவரங்களை காண்"
+    },
+    "status": {
+      "pending": "நிலுவையில்",
+      "approved": "அங்கீகரிக்கப்பட்டது",
+      "rejected": "நிராகரிக்கப்பட்டது"
+    },
+    "dialog": {
+      "title": "புதிய பணத்திருப்பி",
+      "orderId": "ஆர்டர் ஐடி",
+      "customerName": "வாடிக்கையாளர் பெயர்",
+      "reason": "பணத்திருப்பிக்கான காரணம்",
+      "items": "திருப்ப வேண்டிய பொருட்கள்",
+      "productId": "பொருள் ஐடி",
+      "productName": "பொருள் பெயர்",
+      "quantity": "அளவு",
+      "price": "விலை",
+      "addItem": "பொருள் சேர்",
+      "cancel": "ரத்து செய்",
+      "submit": "பணத்திருப்பி சமர்ப்பி"
+    }
+  },
+  "orders": {
+    "common": {
+      "orderId": "ஆர்டர் ஐடி",
+      "customerName": "வாடிக்கையாளர் பெயர்",
+      "orderDate": "ஆர்டர் தேதி",
+      "totalAmount": "மொத்த தொகை",
+      "status": "நிலை",
+      "items": "பொருட்கள்",
+      "actions": "செயல்கள்",
+      "viewDetails": "விவரங்களை காண்",
+      "searchPlaceholder": "ஆர்டர்களை தேடு...",
+      "noOrders": "ஆர்டர்கள் எதுவும் இல்லை"
+    },
+    "status": {
+      "pending": "நிலுவையில்",
+      "processing": "செயலாக்கத்தில்",
+      "completed": "முடிந்தது",
+      "canceled": "ரத்து செய்யப்பட்டது",
+      "all": "அனைத்தும்"
+    },
+    "filters": {
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி",
+      "status": "நிலை",
+      "searchCustomer": "வாடிக்கையாளரை தேடு",
+      "clearFilters": "வடிகட்டிகளை அழி"
+    },
+    "details": {
+      "title": "ஆர்டர் விவரங்கள்",
+      "customerInfo": "வாடிக்கையாளர் தகவல்",
+      "orderInfo": "ஆர்டர் தகவல்",
+      "itemsList": "ஆர்டர் பொருட்கள்",
+      "contact": "தொடர்பு",
+      "email": "மின்னஞ்சல்",
+      "phone": "தொலைபேசி",
+      "address": "முகவரி",
+      "paymentMethod": "கட்டண முறை",
+      "notes": "குறிப்புகள்",
+      "subtotal": "கூட்டுத்தொகை",
+      "tax": "வரி",
+      "total": "மொத்தம்",
+      "close": "மூடு",
+      "print": "ஆர்டரை அச்சிடு"
+    },
+    "customerOrders": {
+      "title": "வாடிக்கையாளர் ஆர்டர்கள்",
+      "newOrder": "புதிய ஆர்டர்"
+    },
+    "pendingOrders": {
+      "title": "நிலுவையில் உள்ள ஆர்டர்கள்",
+      "markAsProcessing": "செயலாக்கத்தில் என குறி",
+      "markAsCompleted": "முடிந்தது என குறி"
+    },
+    "completedOrders": {
+      "title": "முடிக்கப்பட்ட ஆர்டர்கள்",
+      "completionDate": "முடிந்த தேதி"
+    },
+    "canceledOrders": {
+      "title": "ரத்து செய்யப்பட்ட ஆர்டர்கள்",
+      "cancellationDate": "ரத்து செய்த தேதி",
+      "cancellationReason": "ரத்து செய்த காரணம்"
+    },
+    "table": {
+      "product": "பொருள்",
+      "quantity": "அளவு",
+      "unitPrice": "அலகு விலை",
+      "total": "மொத்தம்"
+    }
+  },
+  "common": {
+    "save": "சேமி",
+    "cancel": "ரத்து செய்",
+    "edit": "திருத்து",
+    "delete": "நீக்கு",
+    "search": "தேடு"
+  },
+  "products": {
+    "form": {
+      "title": "புதிய பொருள் சேர்க்க",
+      "name": "பொருளின் பெயர்",
+      "category": "வகை",
+      "price": "விலை",
+      "initialStock": "ஆரம்ப சரக்கு",
+      "reorderPoint": "மறு ஆர்டர் புள்ளி",
+      "supplier": "விநியோகஸ்தர்",
+      "description": "விளக்கம்"
+    },
+    "categories": {
+      "category1": "மின்னணு சாதனங்கள்",
+      "category2": "ஆடைகள்",
+      "category3": "உணவு & பானங்கள்"
+    },
+    "suppliers": {
+      "supplier1": "விநியோகஸ்தர் A",
+      "supplier2": "விநியோகஸ்தர் B",
+      "supplier3": "விநியோகஸ்தர் C"
+    },
+    "table": {
+      "id": "அடையாள எண்",
+      "name": "பெயர்",
+      "category": "வகை",
+      "price": "விலை",
+      "stock": "சரக்கு",
+      "supplier": "விநியோகஸ்தர்",
+      "status": "நிலை",
+      "actions": "செயல்கள்"
+    },
+    "status": {
+      "active": "செயலில்",
+      "inactive": "செயலற்றது"
+    },
+    "actions": {
+      "addNew": "புதிய பொருள் சேர்க்க"
+    },
+    "searchPlaceholder": "பொருட்களை தேடு..."
+  },
+  "inventory": {
+    "table": {
+      "id": "அடையாள எண்",
+      "name": "பெயர்",
+      "currentStock": "தற்போதைய சரக்கு",
+      "reorderPoint": "மறு ஆர்டர் புள்ளி",
+      "supplier": "விநியோகஸ்தர்",
+      "lastUpdated": "கடைசியாக புதுப்பிக்கப்பட்டது",
+      "status": "நிலை",
+      "actions": "செயல்கள்"
+    },
+    "status": {
+      "in-stock": "சரக்கு உள்ளது",
+      "low-stock": "குறைந்த சரக்கு",
+      "out-of-stock": "சரக்கு இல்லை"
+    },
+    "actions": {
+      "adjustStock": "சரக்கை சரிசெய்",
+      "reorder": "மறு ஆர்டர் செய்"
+    },
+    "adjustStock": {
+      "title": "சரக்கு சரிசெய்தல்",
+      "increase": "அதிகரி",
+      "decrease": "குறை",
+      "quantity": "அளவு",
+      "reason": "காரணம்"
+    },
+    "searchPlaceholder": "சரக்கை தேடு...",
+    "lowStockAlerts": {
+      "title": "குறைந்த சரக்கு எச்சரிக்கைகள்"
+    }
+  },
+  "loyalty": {
+    "tiers": {
+      "title": "விசுவாச நிலைகள்",
+      "minPoints": "குறைந்தபட்சம் {{points}} புள்ளிகள் தேவை",
+      "benefits": "நன்மைகள்"
+    },
+    "rewards": {
+      "title": "கிடைக்கும் பரிசுகள்",
+      "points": "புள்ளிகள்",
+      "redeem": "பெறுக",
+      "confirmRedeem": "பரிசு பெறுதலை உறுதிப்படுத்தவும்",
+      "confirmMessage": "{{points}} புள்ளிகளுக்கு {{name}} பெற விரும்புகிறீர்களா?",
+      "confirm": "உறுதிப்படுத்து"
+    },
+    "topCustomers": {
+      "title": "சிறந்த வாடிக்கையாளர்கள்"
+    },
+    "table": {
+      "customer": "வாடிக்கையாளர்",
+      "points": "புள்ளிகள்",
+      "tier": "நிலை",
+      "lastActivity": "கடைசி செயல்பாடு"
+    }
+  },
+  "feedback": {
+    "searchPlaceholder": "கருத்துகளைத் தேடுங்கள்...",
+    "filters": {
+      "rating": "மதிப்பீடு",
+      "category": "வகை",
+      "status": "நிலை",
+      "all": "அனைத்தும்",
+      "stars": "நட்சத்திரங்கள்"
+    },
+    "categories": {
+      "service": "சேவை",
+      "product": "பொருள்",
+      "delivery": "விநியோகம்"
+    },
+    "status": {
+      "pending": "நிலுவையில்",
+      "responded": "பதிலளிக்கப்பட்டது",
+      "resolved": "தீர்க்கப்பட்டது"
+    },
+    "actions": {
+      "reply": "பதிலளி"
+    },
+    "response": "பதில்",
+    "dialog": {
+      "title": "கருத்துக்கு பதிலளிக்கவும்",
+      "customerFeedback": "வாடிக்கையாளர் கருத்து",
+      "response": "உங்கள் பதில்",
+      "submit": "பதிலை சமர்ப்பிக்கவும்"
+    }
+  },
+  "employees": {
+    "title": "ஊழியர் மேலாண்மை",
+    "addEmployee": "ஊழியரைச் சேர்க்க",
+    "editEmployee": "ஊழியரைத் திருத்த",
+    "searchPlaceholder": "ஊழியர்களைத் தேட...",
+    "deleteConfirmation": {
+      "title": "ஊழியரை நீக்க",
+      "message": "{{name}} ஐ நீக்க விரும்புகிறீர்களா?"
+    },
+    "form": {
+      "name": "முழுப் பெயர்",
+      "email": "மின்னஞ்சல்",
+      "phone": "தொலைபேசி எண்",
+      "role": "பதவி",
+      "department": "துறை",
+      "joinDate": "சேர்ந்த தேதி",
+      "status": "நிலை"
+    },
+    "roles": {
+      "manager": "மேலாளர்",
+      "cashier": "காசாளர்",
+      "sales": "விற்பனை பிரதிநிதி",
+      "inventory": "சரக்கு மேலாளர்"
+    },
+    "departments": {
+      "sales": "விற்பனை",
+      "operations": "செயல்பாடுகள்",
+      "finance": "நிதி",
+      "hr": "மனித வளம்"
+    },
+    "status": {
+      "active": "செயலில்",
+      "inactive": "செயலற்றது"
+    }
+  },
+  "shifts": {
+    "title": "ஷிப்ட் மேலாண்மை",
+    "addShift": "புதிய ஷிப்ட் சேர்க்க",
+    "editShift": "ஷிப்ட் திருத்த",
+    "deleteConfirmation": {
+      "title": "ஷிப்ட் நீக்க",
+      "message": "இந்த ஷிப்ட்டை நீக்க விரும்புகிறீர்களா?"
+    },
+    "employee": "ஊழியர்",
+    "date": "தேதி",
+    "startTime": "தொடக்க நேரம்",
+    "endTime": "முடிவு நேரம்",
+    "status": {
+      "scheduled": "திட்டமிடப்பட்டது",
+      "in-progress": "நடைபெறுகிறது",
+      "completed": "முடிந்தது",
+      "cancelled": "ரத்து செய்யப்பட்டது"
+    }
+  },
+  "roles": {
+    "title": "பாத்திர மேலாண்மை",
+    "addRole": "பாத்திரம் சேர்க்க",
+    "editRole": "பாத்திரம் திருத்த",
+    "searchPlaceholder": "பாத்திரங்களைத் தேட...",
+    "deleteConfirmation": {
+      "title": "பாத்திரம் நீக்க",
+      "message": "{{name}} ஐ நீக்க விரும்புகிறீர்களா?"
+    },
+    "form": {
+      "name": "பாத்திர பெயர்",
+      "description": "விளக்கம்",
+      "permissions": "அனுமதிகள்"
+    },
+    "permissions": "அனுமதிகள்"
+  }
+} 

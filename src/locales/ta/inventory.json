@@ -1,0 +1,33 @@
+{
+  "searchPlaceholder": "சரக்குகளைத் தேடு...",
+  "table": {
+    "id": "பொருள் ஐடி",
+    "name": "பொருள் பெயர்",
+    "currentStock": "தற்போதைய இருப்பு",
+    "reorderPoint": "மறு ஆர்டர் புள்ளி",
+    "supplier": "விநியோகஸ்தர்",
+    "lastUpdated": "கடைசியாக புதுப்பிக்கப்பட்டது",
+    "status": "நிலை",
+    "actions": "செயல்கள்"
+  },
+  "status": {
+    "in-stock": "இருப்பில் உள்ளது",
+    "low-stock": "குறைந்த இருப்பு",
+    "out-of-stock": "இருப்பில் இல்லை"
+  },
+  "actions": {
+    "adjustStock": "இருப்பை சரிசெய்",
+    "reorder": "ஆர்டர் செய்"
+  },
+  "adjustStock": {
+    "title": "இருப்பு சரிசெய்தல்",
+    "increase": "அதிகரி",
+    "decrease": "குறை",
+    "quantity": "அளவு",
+    "reason": "காரணம்"
+  },
+  "lowStockAlerts": {
+    "title": "குறைந்த இருப்பு எச்சரிக்கைகள்",
+    "description": "கவனம் தேவைப்படும் பொருட்கள்"
+  }
+} 

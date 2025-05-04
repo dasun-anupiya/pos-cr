@@ -1,0 +1,129 @@
+{
+  "app": {
+    "title": "MKS POS அமைப்பு"
+  },
+  "pos": {
+    "productNumber": "பொருள் எண்",
+    "quantity": "அளவு",
+    "price": "விலை",
+    "amount": "தொகை",
+    "discount": "தள்ளுபடி",
+    "total": "மொத்தம்",
+    "subtotal": "துணை மொத்தம்",
+    "tax": "வரி",
+    "grandTotal": "பெரும் மொத்தம்",
+    "payment": "கட்டணம்",
+    "cash": "பணம்",
+    "card": "அட்டை",
+    "change": "மீதி",
+    "orderNumber": "ஆர்டர் எண்",
+    "date": "தேதி",
+    "time": "நேரம்",
+    "customer": "வாடிக்கையாளர்",
+    "cashier": "காசாளர்",
+    "print": "அச்சிடு",
+    "cancel": "ரத்து",
+    "save": "சேமி",
+    "add": "சேர்",
+    "remove": "நீக்கு",
+    "search": "தேடு",
+    "searchPlaceholder": "பொருட்களைத் தேடு..."
+  },
+  "menu": {
+    "sales": {
+      "title": "விற்பனை",
+      "newSale": "புதிய விற்பனை (POS முனையம்)",
+      "salesHistory": "விற்பனை வரலாறு",
+      "refundsReturns": "பணத்திருப்பி & திருப்பி"
+    },
+    "orders": {
+      "title": "ஆர்டர்கள்",
+      "customerOrders": "வாடிக்கையாளர் ஆர்டர்கள்",
+      "pendingOrders": "நிலுவையில் உள்ள ஆர்டர்கள்",
+      "completedOrders": "முடிக்கப்பட்ட ஆர்டர்கள்",
+      "canceledOrders": "ரத்து செய்யப்பட்ட ஆர்டர்கள்"
+    },
+    "products": {
+      "title": "பொருட்கள் & சரக்கு",
+      "productList": "பொருட்கள் பட்டியல்",
+      "addNewProduct": "புதிய பொருள் சேர்க்க",
+      "stockManagement": "சரக்கு மேலாண்மை",
+      "lowStockAlerts": "குறைந்த சரக்கு எச்சரிக்கைகள்"
+    },
+    "customers": {
+      "title": "வாடிக்கையாளர்கள்",
+      "customerList": "வாடிக்கையாளர் பட்டியல்",
+      "loyaltyProgram": "விசுவாச திட்டம்",
+      "customerFeedback": "வாடிக்கையாளர் கருத்து"
+    },
+    "employees": {
+      "title": "ஊழியர்கள் & பாத்திரங்கள்",
+      "employeeList": "ஊழியர் பட்டியல்",
+      "shiftManagement": "ஷிப்ட் மேலாண்மை",
+      "roleBasedAccess": "பாத்திர அடிப்படையிலான அணுகல்"
+    },
+    "reports": {
+      "title": "அறிக்கைகள் & பகுப்பாய்வு",
+      "salesReports": "விற்பனை அறிக்கைகள்",
+      "inventoryReports": "சரக்கு அறிக்கைகள்",
+      "profitLoss": "லாபம் & நட்டம்",
+      "taxReports": "வரி அறிக்கைகள்"
+    },
+    "suppliers": {
+      "title": "விநியோகஸ்தர்கள் & கொள்முதல்",
+      "supplierList": "விநியோகஸ்தர் பட்டியல்",
+      "purchaseOrders": "கொள்முதல் ஆர்டர்கள்",
+      "incomingStock": "வரும் சரக்கு"
+    },
+    "security": {
+      "title": "பாதுகாப்பு & பதிவுகள்",
+      "userActivityLogs": "பயனர் செயல்பாடு பதிவுகள்",
+      "backupRestore": "காப்புப்பிரதி & மீட்டமை"
+    },
+    "support": {
+      "title": "ஆதரவு & உதவி"
+    }
+  },
+  "days": {
+    "mon": "திங்கள்",
+    "tue": "செவ்வாய்",
+    "wed": "புதன்",
+    "thu": "வியாழன்",
+    "fri": "வெள்ளி",
+    "sat": "சனி",
+    "sun": "ஞாயிறு"
+  },
+  "months": {
+    "jan": "ஜனவரி",
+    "feb": "பிப்ரவரி",
+    "mar": "மார்ச்",
+    "apr": "ஏப்ரல்",
+    "may": "மே",
+    "jun": "ஜூன்",
+    "jul": "ஜூலை",
+    "aug": "ஆகஸ்ட்",
+    "sep": "செப்டம்பர்",
+    "oct": "அக்டோபர்",
+    "nov": "நவம்பர்",
+    "dec": "டிசம்பர்"
+  },
+  "categories": {
+    "electronics": "மின்னணு",
+    "clothing": "ஆடைகள்",
+    "foodBeverage": "உணவு & பானங்கள்",
+    "homeGarden": "வீடு & தோட்டம்",
+    "sportsOutdoors": "விளையாட்டு & வெளிப்புற"
+  },
+  "products": {
+    "laptop": "மடிக்கணினி",
+    "tshirt": "டி-சர்ட்",
+    "coffeeBeans": "காபி பீன்ஸ்",
+    "gardenTools": "தோட்டக்கருவிகள்",
+    "tennisRacket": "டென்னிஸ் ரேக்கெட்",
+    "productA": "பொருள் A",
+    "productB": "பொருள் B",
+    "productC": "பொருள் C",
+    "productD": "பொருள் D",
+    "productE": "பொருள் E"
+  }
+} 

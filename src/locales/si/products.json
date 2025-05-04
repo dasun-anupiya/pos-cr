@@ -1,0 +1,42 @@
+{
+  "searchPlaceholder": "නිෂ්පාදන සොයන්න...",
+  "table": {
+    "id": "නිෂ්පාදන හැඳුනුම්පත",
+    "name": "නිෂ්පාදන නම",
+    "category": "වර්ගය",
+    "price": "මිල",
+    "stock": "වර්තමාන තොගය",
+    "supplier": "සැපයුම්කරු",
+    "status": "තත්ත්වය",
+    "actions": "ක්‍රියාමාර්ග"
+  },
+  "status": {
+    "active": "සක්‍රියයි",
+    "inactive": "අක්‍රියයි"
+  },
+  "actions": {
+    "addNew": "නව නිෂ්පාදනයක් එකතු කරන්න",
+    "edit": "නිෂ්පාදනය සංස්කරණය කරන්න",
+    "delete": "නිෂ්පාදනය මකන්න"
+  },
+  "form": {
+    "title": "නව නිෂ්පාදනයක් එකතු කරන්න",
+    "name": "නිෂ්පාදන නම",
+    "category": "වර්ගය",
+    "price": "මිල",
+    "initialStock": "ආරම්භක තොගය",
+    "reorderPoint": "නැවත ඇණවුම් කිරීමේ ලක්ෂ්‍යය",
+    "supplier": "සැපයුම්කරු",
+    "description": "විස්තරය"
+  },
+  "categories": {
+    "category1": "වර්ගය 1",
+    "category2": "වර්ගය 2",
+    "category3": "වර්ගය 3"
+  },
+  "suppliers": {
+    "supplier1": "සැපයුම්කරු 1",
+    "supplier2": "සැපයුම්කරු 2",
+    "supplier3": "සැපයුම්කරු 3"
+  }
+} 

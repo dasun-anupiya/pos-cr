@@ -1,0 +1,66 @@
+{
+  "title": "Suppliers & Purchases",
+  "supplierList": {
+    "title": "Supplier List",
+    "search": {
+      "placeholder": "Search suppliers..."
+    },
+    "table": {
+      "id": "ID",
+      "name": "Name",
+      "contact": "Contact Person",
+      "email": "Email",
+      "phone": "Phone",
+      "status": "Status",
+      "actions": "Actions"
+    }
+  },
+  "purchaseOrders": {
+    "title": "Purchase Orders",
+    "create": "Create Purchase Order",
+    "search": "Search purchase orders...",
+    "table": {
+      "id": "PO Number",
+      "supplier": "Supplier",
+      "orderDate": "Order Date",
+      "expectedDelivery": "Expected Delivery",
+      "totalAmount": "Total Amount",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "received": "Received",
+      "cancelled": "Cancelled"
+    }
+  },
+  "incomingStock": {
+    "title": "Incoming Stock",
+    "search": "Search incoming stock...",
+    "table": {
+      "id": "Reference",
+      "poNumber": "PO Number",
+      "supplier": "Supplier",
+      "expectedDate": "Expected Date",
+      "items": "Items",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending",
+      "received": "Received",
+      "delayed": "Delayed"
+    }
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "actions": {
+    "addSupplier": "Add Supplier",
+    "editSupplier": "Edit Supplier",
+    "deleteSupplier": "Delete Supplier",
+    "viewDetails": "View Details"
+  }
+} 

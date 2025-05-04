@@ -1,0 +1,16 @@
+{
+  "title": "பங்கு மேலாண்மை",
+  "searchPlaceholder": "பங்குகளைத் தேடுங்கள்...",
+  "addRole": "பங்கு சேர்க்க",
+  "editRole": "பங்கு திருத்து",
+  "permissions": "அனுமதிகள்",
+  "deleteConfirmation": {
+    "title": "பங்கு நீக்கு",
+    "message": "{{name}} ஐ நீக்க விரும்புகிறீர்களா?"
+  },
+  "form": {
+    "name": "பங்கு பெயர்",
+    "description": "விளக்கம்",
+    "permissions": "அனுமதிகள்"
+  }
+} 

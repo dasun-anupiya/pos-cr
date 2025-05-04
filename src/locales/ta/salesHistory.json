@@ -1,0 +1,35 @@
+{
+  "filters": {
+    "startDate": "தொடக்க தேதி",
+    "endDate": "முடிவு தேதி",
+    "paymentMethod": "கட்டண முறை",
+    "status": "நிலை",
+    "searchCustomer": "வாடிக்கையாளரைத் தேடு",
+    "clearFilters": "வடிகட்டிகளை அழி",
+    "all": "அனைத்தும்"
+  },
+  "table": {
+    "saleId": "விற்பனை ஐடி",
+    "date": "தேதி",
+    "customer": "வாடிக்கையாளர்",
+    "items": "பொருட்கள்",
+    "total": "மொத்தம்",
+    "paymentMethod": "கட்டண முறை",
+    "status": "நிலை",
+    "actions": "செயல்கள்"
+  },
+  "status": {
+    "completed": "முடிந்தது",
+    "refunded": "திருப்பி அளிக்கப்பட்டது",
+    "canceled": "ரத்து செய்யப்பட்டது"
+  },
+  "paymentMethods": {
+    "cash": "பணம்",
+    "card": "அட்டை",
+    "mobilePay": "மொபைல் பேமெண்ட்"
+  },
+  "details": {
+    "title": "விற்பனை விவரங்கள்",
+    "totalAmount": "மொத்த தொகை"
+  }
+} 

@@ -1,0 +1,452 @@
+{
+  "app": {
+    "title": "POS පද්ධතිය",
+    "logout": "ඉවත් වන්න",
+    "language": "භාෂාව"
+  },
+  "menu": {
+    "sales": {
+      "title": "විකුණුම්",
+      "newSale": "නව විකුණුම් (POS Terminal)",
+      "salesHistory": "විකුණුම් ඉතිහාසය",
+      "refundsReturns": "ආපසු ගෙවීම් සහ ආපසු භාණ්ඩ"
+    },
+    "orders": {
+      "title": "ඇණවුම්",
+      "customerOrders": "පාරිභෝගික ඇණවුම්",
+      "pendingOrders": "අපේක්ෂිත ඇණවුම්",
+      "completedOrders": "සම්පූර්ණ කළ ඇණවුම්",
+      "canceledOrders": "අවලංගු කළ ඇණවුම්"
+    },
+    "products": {
+      "title": "නිෂ්පාදන සහ තොග",
+      "productList": "නිෂ්පාදන ලැයිස්තුව",
+      "addNewProduct": "නව නිෂ්පාදනයක් එකතු කරන්න",
+      "stockManagement": "තොග කළමනාකරණය",
+      "lowStockAlerts": "අඩු තොග ඇනවුම්"
+    },
+    "customers": {
+      "title": "පාරිභෝගික කළමනාකරණය",
+      "customerList": "පාරිභෝගික ලැයිස්තුව",
+      "loyaltyProgram": "පාරිභෝගික ලොයල්ටි වැඩසටහන",
+      "customerFeedback": "පාරිභෝගික ප්‍රතිචාර",
+      "searchPlaceholder": "පාරිභෝගිකයන් සොයන්න..."
+    },
+    "employees": {
+      "title": "සේවක කළමනාකරණය",
+      "addEmployee": "සේවකයෙකු එක් කරන්න",
+      "editEmployee": "සේවකයා සංස්කරණය කරන්න",
+      "searchPlaceholder": "සේවකයින් සොයන්න...",
+      "deleteConfirmation": {
+        "title": "සේවකයා මකන්න",
+        "message": "ඔබට {{name}} මැකීමට අවශ්‍ය බව විශ්වාසද?"
+      },
+      "form": {
+        "name": "සම්පූර්ණ නම",
+        "email": "විද්‍යුත් තැපෑල",
+        "phone": "දුරකථන අංකය",
+        "role": "තනතුර",
+        "department": "දෙපාර්තමේන්තුව",
+        "joinDate": "සම්බන්ධ වූ දිනය",
+        "status": "තත්ත්වය"
+      },
+      "roles": {
+        "manager": "කළමනාකරු",
+        "cashier": "මුදල් අයකරු",
+        "sales": "විකුණුම් නියෝජිත",
+        "inventory": "තොග කළමනාකරු"
+      },
+      "departments": {
+        "sales": "විකුණුම්",
+        "operations": "මෙහෙයුම්",
+        "finance": "මූල්‍ය",
+        "hr": "මානව සම්පත්"
+      },
+      "status": {
+        "active": "සක්‍රිය",
+        "inactive": "අක්‍රිය"
+      }
+    },
+    "reports": {
+      "title": "වාර්තා සහ විශ්ලේෂණ",
+      "salesReports": "විකුණුම් වාර්තා",
+      "inventoryReports": "තොග වාර්තා",
+      "profitLoss": "ලාභ අලාභ",
+      "taxReports": "බදු වාර්තා"
+    },
+    "suppliers": {
+      "title": "සැපයුම්කරුවන් සහ මිලදී ගැනීම්",
+      "supplierList": "සැපයුම්කරු ලැයිස්තුව",
+      "purchaseOrders": "මිලදී ගැනීම් ඇණවුම්",
+      "incomingStock": "ලැබෙන තොග"
+    },
+    "security": {
+      "title": "ආරක්ෂාව සහ ලොග්",
+      "userActivityLogs": "පරිශීලක ක්‍රියාකාරකම් ලොග්",
+      "backupRestore": "උපස්ථ සහ ප්‍රතිස්ථාපනය"
+    },
+    "support": {
+      "title": "සහාය සහ උපකාර"
+    }
+  },
+  "pos": {
+    "scanBarcode": "බාර්කෝඩය ස්කෑන් කරන්න",
+    "productNumber": "භාණ්ඩ අංකය",
+    "name": "නම",
+    "price": "මිල",
+    "quantity": "ප්‍රමාණය",
+    "discount": "වට්ටම",
+    "amount": "මුදල",
+    "actions": "ක්‍රියාමාර්ග",
+    "totalAmount": "මුළු මුදල",
+    "totalDiscount": "මුළු වට්ටම",
+    "printBill": "බිල මුද්‍රණය කරන්න",
+    "cancel": "අවලංගු කරන්න",
+    "print": "මුද්‍රණය කරන්න"
+  },
+  "bill": {
+    "contact": "සම්බන්ධ කරගන්න",
+    "email": "විද්‍යුත් තැපෑල",
+    "date": "දිනය",
+    "item": "අයිතමය",
+    "qty": "ප්‍රමාණය",
+    "amountPaid": "ගෙවූ මුදල",
+    "balance": "ශේෂය",
+    "poweredBy": "බලගැන්වීම"
+  },
+  "salesHistory": {
+    "title": "විකුණුම් ඉතිහාසය",
+    "filters": {
+      "startDate": "ආරම්භක දිනය",
+      "endDate": "අවසාන දිනය",
+      "paymentMethod": "ගෙවීම් ක්‍රමය",
+      "status": "තත්ත්වය",
+      "searchCustomer": "පාරිභෝගිකයා සොයන්න",
+      "clearFilters": "පෙරහන් ඉවත් කරන්න",
+      "all": "සියල්ල"
+    },
+    "table": {
+      "saleId": "විකුණුම් අංකය",
+      "date": "දිනය",
+      "customer": "පාරිභෝගිකයා",
+      "items": "අයිතම",
+      "total": "එකතුව",
+      "paymentMethod": "ගෙවීම් ක්‍රමය",
+      "status": "තත්ත්වය",
+      "actions": "ක්‍රියාමාර්ග"
+    },
+    "status": {
+      "completed": "සම්පූර්ණයි",
+      "refunded": "ආපසු ගෙවා ඇත",
+      "canceled": "අවලංගු කර ඇත"
+    },
+    "paymentMethods": {
+      "cash": "මුදල්",
+      "card": "කාඩ්පත",
+      "mobilePay": "ජංගම ගෙවීම්"
+    },
+    "details": {
+      "title": "විකුණුම් විස්තර",
+      "totalAmount": "මුළු මුදල"
+    }
+  },
+  "refunds": {
+    "title": "ආපසු ගෙවීම් සහ ආපසු භාර දීම්",
+    "searchPlaceholder": "ආපසු ගෙවීම් සොයන්න...",
+    "newRefund": "නව ආපසු ගෙවීමක්",
+    "table": {
+      "orderId": "ඇණවුම් අංකය",
+      "customerName": "පාරිභෝගික නම",
+      "amount": "මුදල",
+      "date": "දිනය",
+      "status": "තත්ත්වය",
+      "reason": "හේතුව",
+      "actions": "ක්‍රියාමාර්ග",
+      "viewDetails": "විස්තර බලන්න"
+    },
+    "status": {
+      "pending": "අවිනිශ්චිතයි",
+      "approved": "අනුමත කර ඇත",
+      "rejected": "ප්‍රතික්ෂේප කර ඇත"
+    },
+    "dialog": {
+      "title": "නව ආපසු ගෙවීමක්",
+      "orderId": "ඇණවුම් අංකය",
+      "customerName": "පාරිභෝගික නම",
+      "reason": "ආපසු ගෙවීමට හේතුව",
+      "items": "ආපසු ගෙවීමට අයිතම",
+      "productId": "නිෂ්පාදන අංකය",
+      "productName": "නිෂ්පාදන නම",
+      "quantity": "ප්‍රමාණය",
+      "price": "මිල",
+      "addItem": "අයිතමයක් එකතු කරන්න",
+      "cancel": "අවලංගු කරන්න",
+      "submit": "ආපසු ගෙවීම ඉදිරිපත් කරන්න"
+    }
+  },
+  "orders": {
+    "common": {
+      "orderId": "ඇණවුම් අංකය",
+      "customerName": "පාරිභෝගික නම",
+      "orderDate": "ඇණවුම් දිනය",
+      "totalAmount": "මුළු මුදල",
+      "status": "තත්ත්වය",
+      "items": "අයිතම",
+      "actions": "ක්‍රියාමාර්ග",
+      "viewDetails": "විස්තර බලන්න",
+      "searchPlaceholder": "ඇණවුම් සොයන්න...",
+      "noOrders": "ඇණවුම් නොමැත"
+    },
+    "status": {
+      "pending": "අවිනිශ්චිතයි",
+      "processing": "සැකසෙමින් පවතී",
+      "completed": "සම්පූර්ණයි",
+      "canceled": "අවලංගු කර ඇත",
+      "all": "සියල්ල"
+    },
+    "filters": {
+      "startDate": "ආරම්භක දිනය",
+      "endDate": "අවසාන දිනය",
+      "status": "තත්ත්වය",
+      "searchCustomer": "පාරිභෝගිකයා සොයන්න",
+      "clearFilters": "පෙරහන් ඉවත් කරන්න"
+    },
+    "details": {
+      "title": "ඇණවුම් විස්තර",
+      "customerInfo": "පාරිභෝගික තොරතුරු",
+      "orderInfo": "ඇණවුම් තොරතුරු",
+      "itemsList": "ඇණවුම් අයිතම",
+      "contact": "සම්බන්ධ කරගන්න",
+      "email": "විද්‍යුත් තැපෑල",
+      "phone": "දුරකථන",
+      "address": "ලිපිනය",
+      "paymentMethod": "ගෙවීම් ක්‍රමය",
+      "notes": "සටහන්",
+      "subtotal": "උප එකතුව",
+      "tax": "බදු",
+      "total": "එකතුව",
+      "close": "වසන්න",
+      "print": "ඇණවුම මුද්‍රණය කරන්න"
+    },
+    "customerOrders": {
+      "title": "පාරිභෝගික ඇණවුම්",
+      "newOrder": "නව ඇණවුමක්"
+    },
+    "pendingOrders": {
+      "title": "අවිනිශ්චිත ඇණවුම්",
+      "markAsProcessing": "සැකසෙමින් පවතින ලෙස සලකුණු කරන්න",
+      "markAsCompleted": "සම්පූර්ණ කළ ලෙස සලකුණු කරන්න"
+    },
+    "completedOrders": {
+      "title": "සම්පූර්ණ කළ ඇණවුම්",
+      "completionDate": "සම්පූර්ණ කළ දිනය"
+    },
+    "canceledOrders": {
+      "title": "අවලංගු කළ ඇණවුම්",
+      "cancellationDate": "අවලංගු කළ දිනය",
+      "cancellationReason": "අවලංගු කිරීමට හේතුව"
+    },
+    "table": {
+      "product": "නිෂ්පාදනය",
+      "quantity": "ප්‍රමාණය",
+      "unitPrice": "ඒකක මිල",
+      "total": "එකතුව"
+    }
+  },
+  "common": {
+    "save": "සුරකින්න",
+    "cancel": "අවලංගු කරන්න",
+    "edit": "සංස්කරණය කරන්න",
+    "delete": "මකන්න",
+    "search": "සොයන්න"
+  },
+  "products": {
+    "form": {
+      "title": "නව නිෂ්පාදනයක් එකතු කරන්න",
+      "name": "නිෂ්පාදන නම",
+      "category": "වර්ගය",
+      "price": "මිල",
+      "initialStock": "ආරම්භක තොගය",
+      "reorderPoint": "නැවත ඇණවුම් කිරීමේ ස්ථානය",
+      "supplier": "සැපයුම්කරු",
+      "description": "විස්තරය"
+    },
+    "categories": {
+      "category1": "ඉලෙක්ට්‍රොනික්ස්",
+      "category2": "ඇඳුම්",
+      "category3": "ආහාර සහ පාන"
+    },
+    "suppliers": {
+      "supplier1": "සැපයුම්කරු A",
+      "supplier2": "සැපයුම්කරු B",
+      "supplier3": "සැපයුම්කරු C"
+    },
+    "table": {
+      "id": "හැඳුනුම්පත",
+      "name": "නම",
+      "category": "වර්ගය",
+      "price": "මිල",
+      "stock": "තොගය",
+      "supplier": "සැපයුම්කරු",
+      "status": "තත්ත්වය",
+      "actions": "ක්‍රියාමාර්ග"
+    },
+    "status": {
+      "active": "සක්‍රිය",
+      "inactive": "අක්‍රිය"
+    },
+    "actions": {
+      "addNew": "නව නිෂ්පාදනයක් එකතු කරන්න"
+    },
+    "searchPlaceholder": "නිෂ්පාදන සොයන්න..."
+  },
+  "inventory": {
+    "table": {
+      "id": "හැඳුනුම්පත",
+      "name": "නම",
+      "currentStock": "වර්තමාන තොගය",
+      "reorderPoint": "නැවත ඇණවුම් කිරීමේ ස්ථානය",
+      "supplier": "සැපයුම්කරු",
+      "lastUpdated": "අවසන් යාවත්කාලීන කිරීම",
+      "status": "තත්ත්වය",
+      "actions": "ක්‍රියාමාර්ග"
+    },
+    "status": {
+      "in-stock": "තොග ඇත",
+      "low-stock": "අඩු තොග",
+      "out-of-stock": "තොග නැත"
+    },
+    "actions": {
+      "adjustStock": "තොග සකසන්න",
+      "reorder": "නැවත ඇණවුම් කරන්න"
+    },
+    "adjustStock": {
+      "title": "තොග සැකසීම",
+      "increase": "වැඩි කරන්න",
+      "decrease": "අඩු කරන්න",
+      "quantity": "ප්‍රමාණය",
+      "reason": "හේතුව"
+    },
+    "searchPlaceholder": "තොග සොයන්න...",
+    "lowStockAlerts": {
+      "title": "අඩු තොග ඇනවුම්"
+    }
+  },
+  "customers": {
+    "form": {
+      "title": "නව පාරිභෝගිකයෙකු එක් කරන්න",
+      "name": "පාරිභෝගික නම",
+      "email": "විද්‍යුත් තැපෑල",
+      "phone": "දුරකථන අංකය",
+      "address": "ලිපිනය"
+    },
+    "table": {
+      "id": "හැඳුනුම්පත",
+      "name": "නම",
+      "email": "විද්‍යුත් තැපෑල",
+      "phone": "දුරකථන",
+      "loyaltyPoints": "පාරිභෝගික ලකුණු",
+      "registrationDate": "ලියාපදිංචි දිනය",
+      "status": "තත්ත්වය",
+      "actions": "ක්‍රියාමාර්ග"
+    },
+    "status": {
+      "active": "සක්‍රිය",
+      "inactive": "අක්‍රිය"
+    },
+    "actions": {
+      "addNew": "නව පාරිභෝගිකයෙකු එක් කරන්න",
+      "edit": "පාරිභෝගිකයා සංස්කරණය කරන්න",
+      "delete": "පාරිභෝගිකයා මකන්න"
+    }
+  },
+  "loyalty": {
+    "tiers": {
+      "title": "පාරිභෝගික මට්ටම්",
+      "minPoints": "අවම {{points}} ලකුණු අවශ්‍යයි",
+      "benefits": "ප්‍රතිලාභ"
+    },
+    "rewards": {
+      "title": "ලබාගත හැකි ත්‍යාග",
+      "points": "ලකුණු",
+      "redeem": "ලබා ගන්න",
+      "confirmRedeem": "ත්‍යාග ලබා ගැනීම තහවුරු කරන්න",
+      "confirmMessage": "ඔබට {{points}} ලකුණු සඳහා {{name}} ලබා ගැනීමට අවශ්‍යද?",
+      "confirm": "තහවුරු කරන්න"
+    },
+    "topCustomers": {
+      "title": "ප්‍රධාන පාරිභෝගිකයන්"
+    },
+    "table": {
+      "customer": "පාරිභෝගිකයා",
+      "points": "ලකුණු",
+      "tier": "මට්ටම",
+      "lastActivity": "අවසන් ක්‍රියාකාරකම"
+    }
+  },
+  "feedback": {
+    "searchPlaceholder": "ප්‍රතිචාර සොයන්න...",
+    "filters": {
+      "rating": "ඇගයීම",
+      "category": "කාණ්ඩය",
+      "status": "තත්ත්වය",
+      "all": "සියල්ල",
+      "stars": "තරු"
+    },
+    "categories": {
+      "service": "සේවාව",
+      "product": "නිෂ්පාදනය",
+      "delivery": "බෙදාහැරීම"
+    },
+    "status": {
+      "pending": "අපේක්ෂිත",
+      "responded": "පිළිතුරු දී ඇත",
+      "resolved": "විසඳා ඇත"
+    },
+    "actions": {
+      "reply": "පිළිතුරු"
+    },
+    "response": "පිළිතුර",
+    "dialog": {
+      "title": "ප්‍රතිචාරයට පිළිතුරු දෙන්න",
+      "customerFeedback": "පාරිභෝගික ප්‍රතිචාරය",
+      "response": "ඔබේ පිළිතුර",
+      "submit": "පිළිතුර යවන්න"
+    }
+  },
+  "shifts": {
+    "title": "වාර කළමනාකරණය",
+    "addShift": "නව වාරයක් එක් කරන්න",
+    "editShift": "වාරය සංස්කරණය කරන්න",
+    "deleteConfirmation": {
+      "title": "වාරය මකන්න",
+      "message": "ඔබට මෙම වාරය මැකීමට අවශ්‍ය බව විශ්වාසද?"
+    },
+    "employee": "සේවකයා",
+    "date": "දිනය",
+    "startTime": "ආරම්භක වේලාව",
+    "endTime": "අවසන් වේලාව",
+    "status": {
+      "scheduled": "සැලසුම් කර ඇත",
+      "in-progress": "ක්‍රියාත්මක වෙමින් පවතී",
+      "completed": "සම්පූර්ණ කර ඇත",
+      "cancelled": "අවලංගු කර ඇත"
+    }
+  },
+  "roles": {
+    "title": "කාර්යභාර කළමනාකරණය",
+    "addRole": "කාර්යභාරයක් එක් කරන්න",
+    "editRole": "කාර්යභාරය සංස්කරණය කරන්න",
+    "searchPlaceholder": "කාර්යභාර සොයන්න...",
+    "deleteConfirmation": {
+      "title": "කාර්යභාරය මකන්න",
+      "message": "ඔබට {{name}} මැකීමට අවශ්‍ය බව විශ්වාසද?"
+    },
+    "form": {
+      "name": "කාර්යභාර නම",
+      "description": "විස්තරය",
+      "permissions": "අවසර"
+    },
+    "permissions": "අවසර"
+  }
+} 

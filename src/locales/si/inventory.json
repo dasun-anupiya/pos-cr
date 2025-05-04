@@ -1,0 +1,33 @@
+{
+  "searchPlaceholder": "තොග සොයන්න...",
+  "table": {
+    "id": "නිෂ්පාදන හැඳුනුම්පත",
+    "name": "නිෂ්පාදන නම",
+    "currentStock": "වර්තමාන තොගය",
+    "reorderPoint": "නැවත ඇණවුම් කිරීමේ ලක්ෂ්‍යය",
+    "supplier": "සැපයුම්කරු",
+    "lastUpdated": "අවසන් යාවත්කාලීන කිරීම",
+    "status": "තත්ත්වය",
+    "actions": "ක්‍රියාමාර්ග"
+  },
+  "status": {
+    "in-stock": "තොග ඇත",
+    "low-stock": "අඩු තොග",
+    "out-of-stock": "තොග නැත"
+  },
+  "actions": {
+    "adjustStock": "තොග සකසන්න",
+    "reorder": "ඇණවුම් කරන්න"
+  },
+  "adjustStock": {
+    "title": "තොග සැකසීම",
+    "increase": "වැඩි කරන්න",
+    "decrease": "අඩු කරන්න",
+    "quantity": "ප්‍රමාණය",
+    "reason": "හේතුව"
+  },
+  "lowStockAlerts": {
+    "title": "අඩු තොග ඇඟවීම්",
+    "description": "අවධානය යොමු කළ යුතු නිෂ්පාදන"
+  }
+} 

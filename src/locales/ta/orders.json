@@ -1,0 +1,48 @@
+{
+  "common": {
+    "searchPlaceholder": "ஆர்டர்களைத் தேடு...",
+    "orderId": "ஆர்டர் ஐடி",
+    "customerName": "வாடிக்கையாளர் பெயர்",
+    "orderDate": "ஆர்டர் தேதி",
+    "totalAmount": "மொத்த தொகை",
+    "status": "நிலை",
+    "actions": "செயல்கள்",
+    "viewDetails": "விவரங்களைக் காண்க"
+  },
+  "customerOrders": {
+    "newOrder": "புதிய ஆர்டர்"
+  },
+  "pendingOrders": {
+    "markAsProcessing": "செயலாக்கத்தில் என குறி",
+    "markAsCompleted": "முடிந்தது என குறி"
+  },
+  "completedOrders": {
+    "completionDate": "முடிந்த தேதி"
+  },
+  "canceledOrders": {
+    "cancellationDate": "ரத்து செய்த தேதி",
+    "cancellationReason": "ரத்து செய்த காரணம்"
+  },
+  "status": {
+    "pending": "நிலுவையில் உள்ளது",
+    "processing": "செயலாக்கத்தில் உள்ளது",
+    "completed": "முடிந்தது",
+    "canceled": "ரத்து செய்யப்பட்டது"
+  },
+  "details": {
+    "title": "ஆர்டர் விவரங்கள்",
+    "customerInfo": "வாடிக்கையாளர் தகவல்",
+    "customerName": "வாடிக்கையாளர் பெயர்",
+    "orderInfo": "ஆர்டர் தகவல்",
+    "itemsList": "பொருட்கள் பட்டியல்",
+    "total": "மொத்த தொகை",
+    "close": "மூடு",
+    "print": "அச்சிடு"
+  },
+  "table": {
+    "product": "பொருள்",
+    "quantity": "அளவு",
+    "unitPrice": "அலகு விலை",
+    "total": "மொத்தம்"
+  }
+} 

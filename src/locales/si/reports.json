@@ -1,0 +1,102 @@
+{
+  "title": "වාර්තා",
+  "timeRange": "කාල පරාසය",
+  "daily": "දෛනික",
+  "weekly": "සතිපතා",
+  "monthly": "මාසික",
+  "startDate": "ආරම්භක දිනය",
+  "endDate": "අවසන් දිනය",
+  "sales": {
+    "title": "විකුණුම් වාර්තා",
+    "daily": "දෛනික විකුණුම්",
+    "weekly": "සතිපතා විකුණුම්",
+    "monthly": "මාසික විකුණුම්",
+    "yearly": "වාර්ෂික විකුණුම්",
+    "filters": {
+      "dateRange": "දින පරාසය",
+      "category": "කාණ්ඩය",
+      "product": "නිෂ්පාදනය",
+      "customer": "පාරිභෝගික"
+    },
+    "summary": {
+      "totalSales": "මුළු විකුණුම්",
+      "averageSale": "සාමාන්‍ය විකුණුම්",
+      "topProducts": "වැඩිම විකුණුම් ඇති නිෂ්පාදන",
+      "topCategories": "ඉහළම කාණ්ඩ"
+    },
+    "period": "කාල සීමාව",
+    "amount": "මුදල",
+    "productName": "නිෂ්පාදන නාමය",
+    "unitsSold": "විකුණන ලද ඒකක",
+    "revenue": "ආදායම"
+  },
+  "inventory": {
+    "title": "තොග වාර්තා",
+    "stockLevels": "තොග මට්ටම්",
+    "category": "කාණ්ඩය",
+    "totalItems": "මුළු අයිතම",
+    "lowStock": "අඩු තොග",
+    "outOfStock": "තොග නැත",
+    "inStock": "තොග ඇත",
+    "reorderPoint": "නැවත ඇණවුම් කිරීමේ ලක්ෂ්‍යය",
+    "lastUpdated": "අවසන් යාවත්කාලීන කිරීම",
+    "recentMovements": "මෑත චලන",
+    "product": "නිෂ්පාදනය",
+    "type": "වර්ගය",
+    "quantity": "ප්‍රමාණය",
+    "date": "දිනය",
+    "stockIn": "තොග ඇතුළත්",
+    "stockOut": "තොග පිටතට",
+    "value": "වටිනාකම",
+    "filters": {
+      "category": "කාණ්ඩය අනුව පෙරීම",
+      "status": "තත්ත්වය අනුව පෙරීම",
+      "search": "නිෂ්පාදන සෙවීම"
+    },
+    "status": {
+      "all": "සියල්ල",
+      "inStock": "තොග ඇත",
+      "lowStock": "අඩු තොග",
+      "outOfStock": "තොග නැත"
+    },
+    "summary": {
+      "totalProducts": "මුළු නිෂ්පාදන",
+      "totalValue": "මුළු වටිනාකම",
+      "lowStockItems": "අඩු තොග අයිතම",
+      "outOfStockItems": "තොග නැති අයිතම"
+    }
+  },
+  "profitLoss": {
+    "title": "ලාභ අලාභ",
+    "revenue": "ආදායම",
+    "expenses": "වියදම්",
+    "grossProfit": "දළ ලාභය",
+    "netProfit": "ශුද්ධ ලාභය",
+    "salesRevenue": "විකුණුම් ආදායම",
+    "costOfGoods": "භාණ්ඩ පිරිවැය",
+    "operatingExpenses": "මෙහෙයුම් වියදම්",
+    "filters": {
+      "dateRange": "දින පරාසය",
+      "category": "කාණ්ඩය"
+    },
+    "summary": {
+      "totalRevenue": "මුළු ආදායම",
+      "totalExpenses": "මුළු වියදම්",
+      "netProfitMargin": "ශුද්ධ ලාභ ආන්තිකය"
+    }
+  },
+  "tax": {
+    "title": "බදු වාර්තා",
+    "details": "බදු විස්තර",
+    "category": "වර්ගය",
+    "taxableAmount": "බදු යෝග්‍ය මුදල",
+    "rate": "අනුපාතය",
+    "amount": "මුදල",
+    "total": "එකතුව",
+    "salesTax": "විකුණුම් බද්ද",
+    "vat": "වැට්",
+    "serviceTax": "සේවා බද්ද"
+  },
+  "quarterly": "කාර්තුමය",
+  "yearly": "වාර්ෂික"
+} 

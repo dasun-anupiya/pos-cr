@@ -1,0 +1,23 @@
+{
+  "title": "Shift Management",
+  "addShift": "Add Shift",
+  "editShift": "Edit Shift",
+  "employee": "Employee",
+  "date": "Date",
+  "startTime": "Start Time",
+  "endTime": "End Time",
+  "status": "Status",
+  "status": {
+    "scheduled": "Scheduled",
+    "in-progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "form": {
+    "employee": "Employee Name",
+    "date": "Shift Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "status": "Shift Status"
+  }
+} 

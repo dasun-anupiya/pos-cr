@@ -1,0 +1,141 @@
+{
+  "app": {
+    "title": "MKS POS System"
+  },
+  "pos": {
+    "productNumber": "Product Number",
+    "quantity": "Quantity",
+    "price": "Price",
+    "amount": "Amount",
+    "discount": "Discount",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "grandTotal": "Grand Total",
+    "payment": "Payment",
+    "cash": "Cash",
+    "card": "Card",
+    "change": "Change",
+    "orderNumber": "Order Number",
+    "date": "Date",
+    "time": "Time",
+    "customer": "Customer",
+    "cashier": "Cashier",
+    "print": "Print",
+    "cancel": "Cancel",
+    "save": "Save",
+    "add": "Add",
+    "remove": "Remove",
+    "search": "Search",
+    "searchPlaceholder": "Search products..."
+  },
+  "menu": {
+    "sales": {
+      "title": "Sales",
+      "newSale": "New Sale (POS Terminal)",
+      "salesHistory": "Sales History",
+      "refundsReturns": "Refunds & Returns"
+    },
+    "orders": {
+      "title": "Orders",
+      "customerOrders": "Customer Orders",
+      "pendingOrders": "Pending Orders",
+      "completedOrders": "Completed Orders",
+      "canceledOrders": "Canceled Orders"
+    },
+    "products": {
+      "title": "Products & Inventory",
+      "productList": "Product List",
+      "addNewProduct": "Add New Product",
+      "stockManagement": "Stock Management",
+      "lowStockAlerts": "Low Stock Alerts"
+    },
+    "customers": {
+      "title": "Customers",
+      "customerList": "Customer List",
+      "loyaltyProgram": "Loyalty Program",
+      "customerFeedback": "Customer Feedback"
+    },
+    "employees": {
+      "title": "Employees & Roles",
+      "employeeList": "Employee List",
+      "shiftManagement": "Shift Management",
+      "roleBasedAccess": "Role-Based Access"
+    },
+    "reports": {
+      "title": "Reports & Analytics",
+      "salesReports": "Sales Reports",
+      "inventoryReports": "Inventory Reports",
+      "profitLoss": "Profit & Loss",
+      "taxReports": "Tax Reports"
+    },
+    "suppliers": {
+      "title": "Suppliers & Purchases",
+      "supplierList": "Supplier List",
+      "purchaseOrders": "Purchase Orders",
+      "incomingStock": "Incoming Stock"
+    },
+    "security": {
+      "title": "Security & Logs",
+      "userActivityLogs": "User Activity Logs",
+      "backupRestore": "Backup & Restore"
+    },
+    "support": {
+      "title": "Support & Help"
+    }
+  },
+  "days": {
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday",
+    "fri": "Friday",
+    "sat": "Saturday",
+    "sun": "Sunday"
+  },
+  "months": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December"
+  },
+  "categories": {
+    "electronics": "Electronics",
+    "clothing": "Clothing",
+    "foodBeverage": "Food & Beverage",
+    "homeGarden": "Home & Garden",
+    "sportsOutdoors": "Sports & Outdoors"
+  },
+  "products": {
+    "laptop": "Laptop",
+    "tshirt": "T-Shirt",
+    "coffeeBeans": "Coffee Beans",
+    "gardenTools": "Garden Tools",
+    "tennisRacket": "Tennis Racket",
+    "productA": "Product A",
+    "productB": "Product B",
+    "productC": "Product C",
+    "productD": "Product D",
+    "productE": "Product E"
+  },
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "create": "Create",
+  "update": "Update",
+  "close": "Close",
+  "confirm": "Confirm",
+  "success": "Success",
+  "error": "Error",
+  "warning": "Warning",
+  "info": "Information"
+} 

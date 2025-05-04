@@ -1,0 +1,30 @@
+{
+  "searchPlaceholder": "ප්‍රතිචාර සොයන්න...",
+  "filters": {
+    "rating": "ඇගයීම",
+    "category": "කාණ්ඩය",
+    "status": "තත්ත්වය",
+    "all": "සියල්ල",
+    "stars": "තරු"
+  },
+  "categories": {
+    "service": "සේවාව",
+    "product": "නිෂ්පාදනය",
+    "delivery": "බෙදාහැරීම"
+  },
+  "status": {
+    "pending": "අපේක්ෂිත",
+    "responded": "පිළිතුරු දී ඇත",
+    "resolved": "විසඳා ඇත"
+  },
+  "actions": {
+    "reply": "පිළිතුරු"
+  },
+  "response": "පිළිතුර",
+  "dialog": {
+    "title": "ප්‍රතිචාරයට පිළිතුරු",
+    "customerFeedback": "පාරිභෝගික ප්‍රතිචාරය",
+    "response": "ඔබගේ පිළිතුර",
+    "submit": "පිළිතුර යවන්න"
+  }
+} 

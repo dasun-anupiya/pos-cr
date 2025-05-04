@@ -1,0 +1,35 @@
+{
+  "filters": {
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "paymentMethod": "Payment Method",
+    "status": "Status",
+    "searchCustomer": "Search Customer",
+    "clearFilters": "Clear Filters",
+    "all": "All"
+  },
+  "table": {
+    "saleId": "Sale ID",
+    "date": "Date",
+    "customer": "Customer",
+    "items": "Items",
+    "total": "Total",
+    "paymentMethod": "Payment Method",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "completed": "Completed",
+    "refunded": "Refunded",
+    "canceled": "Canceled"
+  },
+  "paymentMethods": {
+    "cash": "Cash",
+    "card": "Card",
+    "mobilePay": "Mobile Payment"
+  },
+  "details": {
+    "title": "Sale Details",
+    "totalAmount": "Total Amount"
+  }
+} 

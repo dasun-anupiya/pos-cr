@@ -1,0 +1,42 @@
+{
+  "searchPlaceholder": "Search products...",
+  "table": {
+    "id": "Product ID",
+    "name": "Product Name",
+    "category": "Category",
+    "price": "Price",
+    "stock": "Current Stock",
+    "supplier": "Supplier",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "actions": {
+    "addNew": "Add New Product",
+    "edit": "Edit Product",
+    "delete": "Delete Product"
+  },
+  "form": {
+    "title": "Add New Product",
+    "name": "Product Name",
+    "category": "Category",
+    "price": "Price",
+    "initialStock": "Initial Stock",
+    "reorderPoint": "Reorder Point",
+    "supplier": "Supplier",
+    "description": "Description"
+  },
+  "categories": {
+    "category1": "Category 1",
+    "category2": "Category 2",
+    "category3": "Category 3"
+  },
+  "suppliers": {
+    "supplier1": "Supplier 1",
+    "supplier2": "Supplier 2",
+    "supplier3": "Supplier 3"
+  }
+} 
