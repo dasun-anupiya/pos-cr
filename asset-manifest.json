@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pos-cr/static/css/main.5174a2f2.css",
+    "main.js": "/pos-cr/static/js/main.b8b3a6d8.js",
+    "static/js/453.383f43ef.chunk.js": "/pos-cr/static/js/453.383f43ef.chunk.js",
+    "index.html": "/pos-cr/index.html",
+    "main.5174a2f2.css.map": "/pos-cr/static/css/main.5174a2f2.css.map",
+    "main.b8b3a6d8.js.map": "/pos-cr/static/js/main.b8b3a6d8.js.map",
+    "453.383f43ef.chunk.js.map": "/pos-cr/static/js/453.383f43ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5174a2f2.css",
+    "static/js/main.b8b3a6d8.js"
+  ]
+}
